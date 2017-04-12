@@ -1,0 +1,679 @@
+INSERT INTO `sline_article_attr` VALUES ('1', '0', null, '线路攻略', null, '0', '0', null, null, null, '1');
+INSERT INTO `sline_article_attr` VALUES ('2', '0', null, '酒店攻略', null, '0', '0', null, null, null, '1');
+INSERT INTO `sline_article_attr` VALUES ('3', '0', null, '租车攻略', null, '0', '0', null, null, null, '1');
+INSERT INTO `sline_article_attr` VALUES ('4', '0', null, '景点攻略', null, '1', '0', null, null, null, '1');
+INSERT INTO `sline_article_attr` VALUES ('5', '0', null, '团购攻略', null, '0', '0', null, null, null, '1');
+INSERT INTO `sline_article_attr` VALUES ('6', '0', null, '签证攻略', null, '0', '0', null, null, null, '1');
+INSERT INTO `sline_article_attr` VALUES ('7', '0', null, '签证常见问题', null, '0', '6', null, null, null, '1');
+INSERT INTO `sline_article_attr` VALUES ('8', '0', null, '签证新闻动态', null, '0', '6', null, null, null, '1');
+INSERT INTO `sline_article_attr` VALUES ('9', '0', null, '签证办理流程', null, '0', '6', null, null, null, '1');
+INSERT INTO `sline_article_attr` VALUES ('11', '0', null, '门票价格', null, '1', '4', null, null, null, '0');
+INSERT INTO `sline_article_attr` VALUES ('12', '0', null, '攻略', null, '1', '0', null, null, null, '0');
+INSERT INTO `sline_article_attr` VALUES ('13', '0', null, '旅游地图', null, '1', '12', null, null, null, '0');
+INSERT INTO `sline_article_attr` VALUES ('14', '0', null, '美食购物', null, '1', '12', null, null, null, '0');
+
+INSERT INTO `sline_article_kindlist` VALUES ('36', '36', '', '', '', '', '', '0', '2', '1', '0', '0', '');
+INSERT INTO `sline_article_kindlist` VALUES ('37', '37', '', '', '', '', '', '0', '3', '1', '0', '0', '');
+
+INSERT INTO `sline_car_attr` VALUES ('1', '0', null, '租车类型', null, '1', '0', null, '1', null);
+INSERT INTO `sline_car_attr` VALUES ('2', '0', null, '厢型', null, '1', '0', null, '1', null);
+INSERT INTO `sline_car_attr` VALUES ('4', '0', null, '自驾', null, '1', '1', null, '0', null);
+INSERT INTO `sline_car_attr` VALUES ('5', '0', null, '代驾', null, '1', '1', null, '0', null);
+INSERT INTO `sline_car_attr` VALUES ('11', '0', null, '租车城市', null, '1', '0', null, '0', null);
+INSERT INTO `sline_car_attr` VALUES ('7', '0', null, '成都', null, '1', '11', null, '0', null);
+INSERT INTO `sline_car_attr` VALUES ('8', '0', null, '云南', null, '1', '11', null, '0', null);
+INSERT INTO `sline_car_attr` VALUES ('9', '0', null, '品牌', null, '1', '0', null, '0', null);
+INSERT INTO `sline_car_attr` VALUES ('13', '0', null, '丰田', null, '1', '9', null, '0', null);
+INSERT INTO `sline_car_attr` VALUES ('14', '0', null, '瑞风', null, '1', '9', null, '0', null);
+INSERT INTO `sline_car_attr` VALUES ('12', '0', null, '金龙', null, '1', '9', null, '0', null);
+
+INSERT INTO `sline_car_content` VALUES ('1', '0', 'content', '车辆信息', '1', '1', '1', '1');
+INSERT INTO `sline_car_content` VALUES ('2', '0', 'notice', '温馨提示', '2', '1', '1', '1');
+INSERT INTO `sline_car_content` VALUES ('3', '0', 'tupian', '图片', '0', '1', '0', '0');
+
+INSERT INTO `sline_car_kind` VALUES ('1', '0', '1', '越野车', '越野车旅游租车价格', '', '', '', '', '1');
+INSERT INTO `sline_car_kind` VALUES ('2', '0', '2', '商务车', '商务车旅游租车价格', '', '', '', '', '2');
+INSERT INTO `sline_car_kind` VALUES ('3', '0', '3', '小轿车', '小轿车旅游租车价格', '', '', '', '', '3');
+INSERT INTO `sline_car_kind` VALUES ('4', '0', null, '大巴车', '大巴车旅游租车价格', null, null, null, null, '4');
+
+INSERT INTO `sline_car_kindlist` VALUES ('36', '36', '', '', '', '', '', '0', '2', '1', '0', '0', '');
+INSERT INTO `sline_car_kindlist` VALUES ('37', '37', '', '', '', '', '', '0', '3', '1', '0', '0', '');
+
+
+
+INSERT INTO `sline_destinations` VALUES ('36', '国内游', '0', null, null, null, null, null, null, '1', '0', '9999', '0', null, '0', null, null, '0', 'guoneiyou', null, '0', null, null, null, '1,2,3,4,5,6,13');
+INSERT INTO `sline_destinations` VALUES ('37', '出境游', '0', null, null, null, null, null, null, '1', '0', '9999', '0', null, '0', null, null, '0', 'chujingyou', null, '0', null, null, null, '1,2,3,4,5,6,13');
+
+
+INSERT INTO `sline_hotel_attr` VALUES ('190', '0', '品牌', '9999', '1', '0', '0', null, null, null);
+INSERT INTO `sline_hotel_attr` VALUES ('191', '0', '品牌1', '9999', '1', '190', '0', null, null, null);
+INSERT INTO `sline_hotel_attr` VALUES ('200', '0', '连锁酒店', '9999', '1', '0', '0', null, null, null);
+INSERT INTO `sline_hotel_attr` VALUES ('201', '0', '七天连锁', '9999', '1', '200', '0', null, null, null);
+INSERT INTO `sline_hotel_attr` VALUES ('202', '0', '特色服务', '9999', '1', '0', '0', null, null, null);
+INSERT INTO `sline_hotel_attr` VALUES ('203', '0', '叫醒服务', '9999', '1', '202', '0', null, null, null);
+INSERT INTO `sline_hotel_attr` VALUES ('204', '0', '洗衣服务', '9999', '1', '202', '0', null, null, null);
+INSERT INTO `sline_hotel_attr` VALUES ('205', '0', '叫醒服务', '9999', '1', '202', '0', null, null, null);
+INSERT INTO `sline_hotel_attr` VALUES ('206', '0', '免费停车', '9999', '1', '202', '0', null, null, null);
+
+INSERT INTO `sline_hotel_content` VALUES ('1', '0', 'content', '酒店详细', '2', '1', '1', '1');
+INSERT INTO `sline_hotel_content` VALUES ('2', '0', 'fuwu', '服务项目', '3', '1', '1', '1');
+INSERT INTO `sline_hotel_content` VALUES ('3', '0', 'traffic', '交通指南', '4', '1', '1', '1');
+INSERT INTO `sline_hotel_content` VALUES ('4', '0', 'notice', '注意事项', '5', '1', '1', '1');
+INSERT INTO `sline_hotel_content` VALUES ('5', '0', 'aroundspots', '周边景点', '6', '1', '1', '1');
+INSERT INTO `sline_hotel_content` VALUES ('7', '0', 'tupian', '酒店图片', '6', '1', '0', '0');
+
+INSERT INTO `sline_hotel_kindlist` VALUES ('36', '36', '', '', '', '', '', '0', '2', '1', '0', '0', '');
+INSERT INTO `sline_hotel_kindlist` VALUES ('37', '37', '', '', '', '', '', '0', '3', '1', '0', '0', '');
+
+
+INSERT INTO `sline_hotel_pricelist` VALUES ('1', '0', null, '0', '500');
+INSERT INTO `sline_hotel_pricelist` VALUES ('2', '0', null, '501', '1000');
+INSERT INTO `sline_hotel_pricelist` VALUES ('3', '0', null, '1001', '2000');
+
+INSERT INTO `sline_hotel_rank` VALUES ('1', '0', '1', '一星级酒店', '1');
+INSERT INTO `sline_hotel_rank` VALUES ('2', '0', '2', '二星级酒店', '2');
+INSERT INTO `sline_hotel_rank` VALUES ('3', '0', '3', '三星级酒店', '3');
+INSERT INTO `sline_hotel_rank` VALUES ('4', '0', '4', '四星级酒店', '4');
+INSERT INTO `sline_hotel_rank` VALUES ('5', '0', '5', '五星级酒店', '5');
+INSERT INTO `sline_hotel_rank` VALUES ('6', '0', '6', '六星级酒店', '6');
+
+
+INSERT INTO `sline_icon` VALUES ('1', '0', '热门', '/uploads/icon/hot.png');
+INSERT INTO `sline_icon` VALUES ('2', '0', '促销', '/uploads/icon/chuxiao.png');
+INSERT INTO `sline_icon` VALUES ('3', '0', '打折', '/uploads/icon/discount.png');
+INSERT INTO `sline_icon` VALUES ('4', '0', '活动', '/uploads/icon/huodong.png');
+INSERT INTO `sline_icon` VALUES ('5', '0', '特价', '/uploads/icon/special.png');
+INSERT INTO `sline_icon` VALUES ('6', '0', '抢购', '/uploads/icon/buy.png');
+
+INSERT INTO `sline_image_group` VALUES ('1', '系统目录', null, '1');
+
+INSERT INTO `sline_line_attr` VALUES ('1', '0', '1', '跟团游', '1', '1', '0', '0', '45', null, null, null);
+INSERT INTO `sline_line_attr` VALUES ('45', '0', '42', '旅行方式', '1', '1', '0', '0', '0', '4149', null, null);
+INSERT INTO `sline_line_attr` VALUES ('84', '0', '81', '交通选择', '2', '1', '0', '0', '0', null, null, null);
+INSERT INTO `sline_line_attr` VALUES ('85', '0', '82', '飞机团', '2', '1', '0', '0', '84', null, null, null);
+INSERT INTO `sline_line_attr` VALUES ('86', '0', '83', '汽车团', '1', '1', '0', '0', '84', null, null, null);
+INSERT INTO `sline_line_attr` VALUES ('88', '0', '85', '游轮', '6', '0', '0', '0', '84', null, null, null);
+INSERT INTO `sline_line_attr` VALUES ('89', '0', '86', '双卧', '3', '0', '0', '0', '84', null, null, null);
+INSERT INTO `sline_line_attr` VALUES ('90', '0', '87', '单卧单飞', '4', '0', '0', '0', '84', null, null, null);
+INSERT INTO `sline_line_attr` VALUES ('91', '0', '88', '节日特惠', '3', '1', '0', '0', '0', null, null, null);
+INSERT INTO `sline_line_attr` VALUES ('92', '0', '89', '元旦', '1', '0', '0', '0', '91', null, null, null);
+INSERT INTO `sline_line_attr` VALUES ('93', '0', '90', '春节', '2', '1', '0', '0', '91', null, null, null);
+INSERT INTO `sline_line_attr` VALUES ('94', '0', '91', '端午', '5', '0', '0', '0', '91', null, null, null);
+INSERT INTO `sline_line_attr` VALUES ('95', '0', '92', '五一', '4', '1', '0', '0', '91', null, null, null);
+INSERT INTO `sline_line_attr` VALUES ('96', '0', '93', '清明', '5', '1', '0', '0', '91', null, null, null);
+INSERT INTO `sline_line_attr` VALUES ('97', '0', '94', '中秋', '6', '1', '0', '0', '91', null, null, null);
+INSERT INTO `sline_line_attr` VALUES ('98', '0', '95', '国庆', '7', '1', '0', '0', '91', null, null, null);
+INSERT INTO `sline_line_attr` VALUES ('142', '0', '136', '自由人', '2', '0', '0', null, '45', null, null, null);
+INSERT INTO `sline_line_attr` VALUES ('143', '0', '137', '半自由人', '3', '0', '0', null, '45', null, null, null);
+INSERT INTO `sline_line_attr` VALUES ('144', '0', '138', '自驾游', '4', '0', '0', null, '45', null, null, null);
+INSERT INTO `sline_line_attr` VALUES ('145', '0', '139', '代驾游', '5', '1', '0', null, '45', null, null, null);
+INSERT INTO `sline_line_attr` VALUES ('146', '0', null, '自助游', null, '1', '0', null, '45', null, null, null);
+INSERT INTO `sline_line_attr` VALUES ('147', '0', null, '自由行', null, '1', '0', null, '45', null, null, null);
+INSERT INTO `sline_line_attr` VALUES ('148', '0', null, '包车游', null, '0', '0', null, '45', null, null, null);
+
+INSERT INTO `sline_line_content` VALUES ('2', '0', 'jieshao', '行程安排', '3', '1', '1', '0', '0');
+INSERT INTO `sline_line_content` VALUES ('3', '0', 'biaozhun', '标准', '4', '0', '1', '0', '1');
+INSERT INTO `sline_line_content` VALUES ('4', '0', 'beizu', '备注', '8', '0', '1', '0', '1');
+INSERT INTO `sline_line_content` VALUES ('5', '0', 'payment', '签约付款', '7', '1', '1', '0', '1');
+INSERT INTO `sline_line_content` VALUES ('6', '0', 'feeinclude', '费用包含', '5', '0', '1', '0', '1');
+INSERT INTO `sline_line_content` VALUES ('7', '0', 'features', '线路特色', '2', '1', '1', '0', '1');
+INSERT INTO `sline_line_content` VALUES ('8', '0', 'reserved1', '简要行程', '1', '0', '1', '0', '1');
+INSERT INTO `sline_line_content` VALUES ('9', '0', 'reserved2', '费用不含', '6', '0', '1', '0', '1');
+INSERT INTO `sline_line_content` VALUES ('10', '0', 'reserved3', '签证', '9', '0', '1', '0', '1');
+INSERT INTO `sline_line_content` VALUES ('11', '0', 'tupian', '图片', '0', '1', '0', '0', '0');
+
+INSERT INTO `sline_line_day` VALUES ('1', '0', '1', '1', '0');
+INSERT INTO `sline_line_day` VALUES ('2', '0', '2', '2', '0');
+INSERT INTO `sline_line_day` VALUES ('3', '0', '3', '3', '0');
+INSERT INTO `sline_line_day` VALUES ('4', '0', '4', '4', '0');
+INSERT INTO `sline_line_day` VALUES ('5', '0', '5', '5', '0');
+INSERT INTO `sline_line_day` VALUES ('6', '0', '6', '6', '0');
+INSERT INTO `sline_line_day` VALUES ('7', '0', '7', '7', '0');
+INSERT INTO `sline_line_day` VALUES ('8', '0', '8', '8', '0');
+INSERT INTO `sline_line_day` VALUES ('9', '0', '9', '9', '0');
+INSERT INTO `sline_line_day` VALUES ('10', '0', '10', '10', '0');
+
+INSERT INTO `sline_line_kindlist` VALUES ('36', '36', '', '', '', '', '', '0', '2', '1', '0', '0', '');
+INSERT INTO `sline_line_kindlist` VALUES ('37', '37', '', '', '', '', '', '0', '3', '1', '0', '0', '');
+INSERT INTO `sline_line_kindlist` VALUES ('38', '40', null, null, null, null, null, '0', '9999', '0', '1', null, null);
+INSERT INTO `sline_line_kindlist` VALUES ('39', '41', null, null, null, null, null, '0', '9999', '0', '1', null, null);
+
+INSERT INTO `sline_line_pricelist` VALUES ('1', '0', '1', null, '200');
+INSERT INTO `sline_line_pricelist` VALUES ('2', '0', null, '201', '500');
+INSERT INTO `sline_line_pricelist` VALUES ('3', '0', '2', '501', '2000');
+INSERT INTO `sline_line_pricelist` VALUES ('4', '0', '3', '2001', '5000');
+INSERT INTO `sline_line_pricelist` VALUES ('5', '0', '4', '5001', '10000');
+INSERT INTO `sline_line_pricelist` VALUES ('6', '0', '5', '10001', null);
+
+
+INSERT INTO `sline_m_nav` VALUES ('1', '1', '/lines/', '线路', '', '9999', '1');
+INSERT INTO `sline_m_nav` VALUES ('5', '9', '/destination/', '目的地', '', '9999', '0');
+INSERT INTO `sline_m_nav` VALUES ('6', '2', '/hotels/', '酒店', '', '9999', '1');
+INSERT INTO `sline_m_nav` VALUES ('7', '3', '/cars/', '租车', '', '9999', '1');
+INSERT INTO `sline_m_nav` VALUES ('8', '8', '/visa/', '签证', '', '9999', '1');
+INSERT INTO `sline_m_nav` VALUES ('9', '10', '/tuan/', '团购', '', '9999', '1');
+INSERT INTO `sline_m_nav` VALUES ('10', '4', '/spots/', '景点', '', '9999', '1');
+INSERT INTO `sline_m_nav` VALUES ('11', '6', '/raiders/', '攻略', '', '9999', '1');
+INSERT INTO `sline_m_nav` VALUES ('12', '7', '/photos/', '相册', '', '9999', '1');
+INSERT INTO `sline_m_nav` VALUES ('14', '13', '/questions/', '问答', '', '9999', '0');
+INSERT INTO `sline_m_nav` VALUES ('17', '18', '/jieban/', '结伴', '', '9999', '0');
+
+
+
+
+INSERT INTO `sline_model` (`id`, `modulename`, `pinyin`, `correct`, `maintable`, `addtable`, `attrtable`, `issystem`, `isopen`) VALUES
+	(1, '线路', 'line', 'lines', 'line', 'line_extend_field', 'line_attr', 1, 1),
+	(2, '酒店', 'hotel', 'hotels', 'hotel', 'hotel_extend_field', 'hotel_attr', 1, 1),
+	(3, '租车', 'car', 'cars', 'car', 'car_extend_field', 'car_attr', 1, 1),
+	(4, '文章', 'article', 'raiders', 'article', 'article_extend_field', 'article_attr', 1, 1),
+	(5, '景点', 'spot', 'spots', 'spot', 'spot_extend_field', 'spot_attr', 1, 1),
+	(6, '相册', 'photo', 'photos', 'photo', 'photo_extend_field', 'photo_attr', 1, 1),
+	(7, '保险', 'insurance', NULL, 'insurance', NULL, 'model_attr', 0, 1),
+	(8, '签证', 'visa', NULL, 'visa', 'visa_extend_field', 'null', 1, 1),
+	(10, '问答', 'wenda', 'questions', 'question', NULL, 'model_attr', 1, 1),
+	(11, '结伴', 'jieban', NULL, 'jieban', 'jieban_extend_field', 'jieban_attr', 1, 1),
+	(13, '团购', 'tuan', NULL, 'tuan', 'tuan_extend_field', 'tuan_attr', 1, 1),
+	(14, '私人定制', 'dingzhi', NULL, 'customize', 'customize_extend_field', 'dingzhi_attr', 1, 1),
+	(101, '游记', 'notes', NULL, 'notes', '', '', 1, 1);
+
+
+INSERT INTO `sline_model_content` VALUES ('1', '0', '7', 'tupian', '图片', '0', '1', '1', '0', '0');
+
+
+
+
+
+INSERT INTO `sline_nav` VALUES ('1', '0', '2', '1', '0', '', '线路', 'XXX旅游线路价格_XXX热门线路推荐', 'XXX旅游线路价格,XXX热门线路推荐', 'XXX网为您提供旅游线路大全，热卖旅游线路报价，热卖旅游线路价格等信息,欢迎咨询！', null, '线路', '/lines/', '1', '1', '1', '1', '旅游线路', '0', '6', null, '1');
+INSERT INTO `sline_nav` VALUES ('2', '0', '3', '2', '0', '', '酒店', 'XXX特价酒店预订_酒店住宿价格', 'XXX特价酒店预订,XXX酒店住宿价格', 'XXXX酒店频道提供3-8折国内经济酒店/连锁酒店/星级宾馆/四川景区酒店优惠预订服务，旅行社预订酒店价格有优势.', null, '酒店', '/hotels/', '1', '1', '6', '1', '热门酒店', '0', '6', null, '0');
+INSERT INTO `sline_nav` VALUES ('3', '0', '4', '3', '0', '', '租车', 'XXX旅游租车_XXX代驾租车', 'XXX旅游租车,XXX代驾租车', 'XXX租车频道提供旅游租车信息,为游客提供越野车,商务车,旅游大巴等旅游租车常用车辆的租赁,让您的包车旅行轻轻松松', null, '租车', '/cars/', '1', '1', '7', '1', '旅游租车', '0', '6', null, '0');
+INSERT INTO `sline_nav` VALUES ('4', '0', '5', '5', '0', '', '景点', '旅游景点大全_旅游景点介绍_旅游景图片', '旅游景点大全,旅游景点介绍,旅游景图片', 'XXX景点频道为您提供国内，境外旅游景点大全，著名旅游景点介绍，旅游景点推荐，旅游景点图片等信息。告诉你有哪些好玩的景点！', null, '旅游景点', '/spots/', '1', '1', '10', '1', '旅游景点', '0', '6', null, '0');
+INSERT INTO `sline_nav` VALUES ('6', '0', '7', '4', '0', '', '攻略', '旅游攻略大全_自助游攻略_游记攻略', '旅游攻略大全,自助游攻略,游记攻略', 'XXX攻略频道为游客提供全面和详细的旅行攻略大全，您可以详细了解到、游记、指南、地图、门票、美食、特产、交通灯信息。', null, '旅游攻略', '/raiders/', '1', '1', '11', '1', '旅游攻略', '0', '6', null, '2');
+INSERT INTO `sline_nav` VALUES ('7', '0', '8', '6', '0', '', '相册', '旅游风景图片_旅游景点图片_旅行图片库', '旅游风景图片,旅游景点图片,旅行图片库', 'XXX相册频道提供旅游风景图片，高清风景图片下载，让您通过丰富多彩的图片了解旅游景点的相关信息。', null, '旅游相册', '/photos/', '1', '1', '12', '1', '旅游相册', '0', '6', null, '0');
+INSERT INTO `sline_nav` VALUES ('8', '0', '89', '8', '0', '签证', '签证', '旅游签证_签证办理', '旅游签证,签证办理', 'XXX提供旅游签证办理，价格实惠，欢迎大家前来咨询预订！', null, '', '/visa/', '1', '1', '8', '1', '签证', '0', '5', null, '0');
+INSERT INTO `sline_nav` VALUES ('9', '0', '90', '12', '0', '', '目的地', '热门旅游目的地', '', '', '', '', '/destination/', '1', '0', '5', '1', '旅游目的地', '0', '5', null, '0');
+INSERT INTO `sline_nav` VALUES ('10', '0', null, '13', '0', '团购', '团购', '热门团购', '热门团购', 'XXX提供热门团购！', '', '', '/tuan/', '1', '1', '9', '1', '团购', '0', '5', null, '0');
+INSERT INTO `sline_nav` VALUES ('11', '0', null, '14', '0', '私人定制', '私人定制', '专属自己的私人定制', '专属自己的私人定制', '专属自己的私人定制', '', '', '/customize/', '1', '0', '13', '1', '私人定制', '0', '5', null, '0');
+INSERT INTO `sline_nav` VALUES ('12', '0', null, '9', '0', '机票', '机票', '特价机票_机票购买', '特价机票,机票购买', 'XXX提供特价机票，机票购买请咨询我们！', '', '', '/ticket/', '1', '0', '15', '1', '机票', '0', '5', null, '0');
+INSERT INTO `sline_nav` VALUES ('13', '0', '10', '10', '0', '', '问答', '旅游在线咨询问答', '旅游在线咨询问答', '旅游在线咨询问答', null, '问答', '/questions/', '1', '0', '14', '1', '问答', '0', '5', null, '0');
+INSERT INTO `sline_nav` VALUES ('18', '0', null, '11', '0', null, '结伴', '结伴', '结伴', '结伴', null, '结伴', '/jieban/', '1', '0', '9999', '1', '结伴', '0', '5', null, '0');
+INSERT INTO `sline_nav` VALUES ('21', '0', null, '101', '0', '游记', '游记', null, null, null, null, null, '/notes/', '1', '1', '9999', '1', null, '0', '5', null, null);
+
+INSERT INTO `sline_page` VALUES ('1', '0', '公共模块', '');
+INSERT INTO `sline_page` VALUES ('2', '1', '网页头部', 'header');
+INSERT INTO `sline_page` VALUES ('3', '1', '网页底部', 'footer');
+INSERT INTO `sline_page` VALUES ('4', '0', '首页模块', '');
+INSERT INTO `sline_page` VALUES ('5', '4', '网站首页', 'index');
+INSERT INTO `sline_page` VALUES ('6', '0', '线路模块', null);
+INSERT INTO `sline_page` VALUES ('7', '0', '酒店模块', null);
+INSERT INTO `sline_page` VALUES ('8', '6', '线路首页', 'line_index');
+INSERT INTO `sline_page` VALUES ('9', '6', '线路列表页', 'line_list');
+INSERT INTO `sline_page` VALUES ('10', '6', '线路详细页', 'line_show');
+INSERT INTO `sline_page` VALUES ('11', '7', '酒店首页', 'hotel_index');
+INSERT INTO `sline_page` VALUES ('12', '7', '酒店列表页', 'hotel_list');
+INSERT INTO `sline_page` VALUES ('13', '7', '酒店详细页', 'hotel_show');
+INSERT INTO `sline_page` VALUES ('14', '0', '租车模块', null);
+INSERT INTO `sline_page` VALUES ('15', '14', '租车首页', 'car_index');
+INSERT INTO `sline_page` VALUES ('16', '14', '租车列表页', 'car_list');
+INSERT INTO `sline_page` VALUES ('17', '14', '租车详细页', 'car_show');
+INSERT INTO `sline_page` VALUES ('18', '0', '攻略模块', null);
+INSERT INTO `sline_page` VALUES ('19', '18', '攻略首页', 'article_index');
+INSERT INTO `sline_page` VALUES ('20', '18', '攻略列表页', 'article_list');
+INSERT INTO `sline_page` VALUES ('21', '18', '攻略详细页', 'article_show');
+INSERT INTO `sline_page` VALUES ('22', '0', '门票模块', null);
+INSERT INTO `sline_page` VALUES ('23', '22', '门票首页', 'menpiao_index');
+INSERT INTO `sline_page` VALUES ('24', '22', '门票列表页', 'menpiao_list');
+INSERT INTO `sline_page` VALUES ('25', '22', '门票详细页', 'menpiao_shoa');
+INSERT INTO `sline_page` VALUES ('26', '0', '景点模块', null);
+INSERT INTO `sline_page` VALUES ('27', '26', '景点首页', 'spot_index');
+INSERT INTO `sline_page` VALUES ('28', '26', '景点列表页', 'spot_list');
+INSERT INTO `sline_page` VALUES ('29', '26', '景点详细页', 'spot_show');
+INSERT INTO `sline_page` VALUES ('30', '0', '相册模块', null);
+INSERT INTO `sline_page` VALUES ('31', '30', '相册首页', 'photo_index');
+INSERT INTO `sline_page` VALUES ('32', '30', '相册列表页', 'photo_list');
+INSERT INTO `sline_page` VALUES ('33', '30', '相册详细页', 'photo_show');
+INSERT INTO `sline_page` VALUES ('34', '0', '签证模块', null);
+INSERT INTO `sline_page` VALUES ('35', '34', '签证首页', 'visa_index');
+INSERT INTO `sline_page` VALUES ('36', '34', '签证列表页', 'visa_list');
+INSERT INTO `sline_page` VALUES ('37', '34', '签证详细页', 'visa_show');
+INSERT INTO `sline_page` VALUES ('38', '0', '团购模块', null);
+INSERT INTO `sline_page` VALUES ('39', '38', '团购首页', 'tuan_index');
+INSERT INTO `sline_page` VALUES ('40', '38', '团购列表页', 'tuan_list');
+INSERT INTO `sline_page` VALUES ('41', '38', '团购详细页', 'tuan_show');
+INSERT INTO `sline_page` VALUES ('42', '0', '目的地模块', null);
+INSERT INTO `sline_page` VALUES ('43', '42', '目的地引导页', 'dest_boot');
+INSERT INTO `sline_page` VALUES ('44', '42', '目的地首页', 'dest_index');
+INSERT INTO `sline_page` VALUES ('45', '0', '帮助模块', null);
+INSERT INTO `sline_page` VALUES ('46', '45', '帮助显示页', 'help_show');
+INSERT INTO `sline_page` VALUES ('47', '0', '底部导航模块', null);
+INSERT INTO `sline_page` VALUES ('48', '47', '底部导航显示页', 'footer_show');
+INSERT INTO `sline_page` VALUES ('49', '0', '专题模块', null);
+INSERT INTO `sline_page` VALUES ('50', '1', '登陆页面', 'member_login');
+INSERT INTO `sline_page` VALUES ('51', '1', '注册页面', 'member_reg');
+INSERT INTO `sline_page` VALUES ('52', '1', '全局搜索页面', 'cloudsearch_index');
+INSERT INTO `sline_page` VALUES ('53', '49', '专题显示页', 'zhuanti_show');
+INSERT INTO `sline_page` VALUES ('54', '1', '底部FAQ栏', 'help');
+INSERT INTO `sline_page` VALUES ('55', '1', '底部友情连接', 'flink');
+INSERT INTO `sline_page` VALUES ('56', '0', '游记', null);
+INSERT INTO `sline_page` VALUES ('57', '56', '游记首页', 'notes_index');
+INSERT INTO `sline_page` VALUES ('58', '56', '游记列表页', 'notes_list');
+INSERT INTO `sline_page` VALUES ('59', '56', '游记详细页', 'notes_show');
+
+
+INSERT INTO `sline_photo_attr` VALUES ('1', '0', '1', '名山名景', '1', '1', '6', '0', null, null, null);
+INSERT INTO `sline_photo_attr` VALUES ('2', '0', '2', '冰川', '2', '0', '6', '0', null, null, null);
+INSERT INTO `sline_photo_attr` VALUES ('3', '0', '3', '海岛', '3', '1', '6', '0', null, null, null);
+INSERT INTO `sline_photo_attr` VALUES ('4', '0', '4', '城市', '4', '1', '6', '0', null, null, null);
+INSERT INTO `sline_photo_attr` VALUES ('5', '0', '5', '古城建筑', '2', '1', '6', '0', null, null, null);
+INSERT INTO `sline_photo_attr` VALUES ('6', '0', '6', '默认', '0', '1', '0', '0', null, null, null);
+INSERT INTO `sline_photo_attr` VALUES ('7', '0', '7', '公园', '6', '1', '6', '0', null, null, null);
+INSERT INTO `sline_photo_attr` VALUES ('8', '0', '8', '教堂', '7', '1', '6', '0', null, null, null);
+INSERT INTO `sline_photo_attr` VALUES ('9', '0', '9', '海湾', '8', '1', '6', '0', null, null, null);
+INSERT INTO `sline_photo_attr` VALUES ('10', '0', '10', '文化馆', '9', '1', '6', '0', null, null, null);
+INSERT INTO `sline_photo_attr` VALUES ('11', '0', '11', '寺庙', '10', '1', '6', '0', null, null, null);
+INSERT INTO `sline_photo_attr` VALUES ('12', '0', '12', '广场', '11', '1', '6', '0', null, null, null);
+
+INSERT INTO `sline_photo_kindlist` VALUES ('36', '36', '', '', '', '', '', '0', '2', '1', '0', '0', '');
+INSERT INTO `sline_photo_kindlist` VALUES ('37', '37', '', '', '', '', '', '0', '3', '1', '0', '0', '');
+
+INSERT INTO `sline_plugin_autotitle` VALUES ('1', 'cfg_dest_title', 'XXX旅游报价_周边线路、酒店、租车以及景点、攻略推荐');
+INSERT INTO `sline_plugin_autotitle` VALUES ('2', 'cfg_dest_desc', 'XXX为您提供XXX旅游专业报价，提供周边经典线路，酒店预订，旅行租车以及XXX旅游攻略等详细旅游信息，是帮助您前往XXX旅游的首选参考网站，欢迎访问！');
+INSERT INTO `sline_plugin_autotitle` VALUES ('3', 'cfg_line_title', 'XXX旅游线路报价_XXX热门线路推荐');
+INSERT INTO `sline_plugin_autotitle` VALUES ('4', 'cfg_line_desc', 'XXX为广大网友提供成都到XXX旅游线路网上特价预订，一站式服务，专业透明的旅游价格。更有XXX自由行、特色游、半自助游、小包团、跟团游和套餐酒店等产品量身定制，品质卓越。');
+INSERT INTO `sline_plugin_autotitle` VALUES ('5', 'cfg_hotel_title', 'XXX预订_酒店房型、设施介绍_酒店报价');
+INSERT INTO `sline_plugin_autotitle` VALUES ('6', 'cfg_hotel_desc', 'XXX为您提供XXX专业详细的房型、设施介绍，提供XXX专业酒店报价。旅行社预订XXX，价格优惠有优势，欢迎咨询！');
+INSERT INTO `sline_plugin_autotitle` VALUES ('7', 'cfg_car_title', 'XXX旅游租车服务_租车电话');
+INSERT INTO `sline_plugin_autotitle` VALUES ('8', 'cfg_car_desc', 'XXX为企业和个人提供XXX租车,为游客提供XXX旅游越野车,商务车,旅游大巴等常用车辆的租赁,让您的XXX旅行轻轻松松，欢迎咨询。');
+INSERT INTO `sline_plugin_autotitle` VALUES ('9', 'cfg_article_title', 'XXX最新旅游攻略大全_住宿、美食、游记和旅行帮助');
+INSERT INTO `sline_plugin_autotitle` VALUES ('10', 'cfg_article_desc', 'XXX最新旅游攻略大全_住宿、美食、游记和旅行帮助');
+INSERT INTO `sline_plugin_autotitle` VALUES ('11', 'cfg_spot_title', 'XXX景点介绍与推荐_人文历史、景观建筑、风景图片等详细信息');
+INSERT INTO `sline_plugin_autotitle` VALUES ('12', 'cfg_spot_desc', 'XXX景点介绍与推荐_人文历史、景观建筑、风景图片等详细信息');
+INSERT INTO `sline_plugin_autotitle` VALUES ('13', 'cfg_photo_title', 'XXX风景图片摄影与欣赏');
+INSERT INTO `sline_plugin_autotitle` VALUES ('14', 'cfg_photo_desc', 'XXX展示最美最全XXX风景图片，XXX清晰摄影照片，向您全面展示XXX的独特风景。欢迎您来XXX留下您的摄影旅行足迹。');
+
+INSERT INTO `sline_role` VALUES ('1', '系统管理员', '', '0', '0', '1');
+
+INSERT INTO `sline_serverlist` VALUES ('1', '0', '1', '关于我们', '', '', '', '1316158745', '1367044106', '1', '0', '1', '0', '0');
+INSERT INTO `sline_serverlist` VALUES ('2', '0', '2', '联系我们', '', '', '', '1316158745', '1366856417', '1', '0', '2', '0', '0');
+INSERT INTO `sline_serverlist` VALUES ('4', '0', '4', '支付方式', '', '', '', '1316158745', '1366861192', '1', '0', '9', '0', '0');
+INSERT INTO `sline_serverlist` VALUES ('7', '0', '7', '法律声明', '', '', '', '1317209943', '1366861216', '1', '0', '10', '0', '0');
+INSERT INTO `sline_serverlist` VALUES ('10', '0', '10', '隐私保护', '', '', '<p><span lang=\"EN-US\" style=\"font-family: Arial; color: #666666; font-size: 9.5pt\"><o:p></o:p></span></p>\r\n<p><span lang=\"EN-US\" style=\"font-family: Arial; color: black; font-size: 9.5pt\"><span lang=\"EN-US\" style=\"font-family: Arial; color: #666666; font-size: 9.5pt; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA; mso-fareast-font-family: 宋体\"><v:shapetype id=\"_x0000_t75\" coordsize=\"21600,21600\" o:spt=\"75\" o:preferrelative=\"t\" path=\"m@4@5l@4@11@9@11@9@5xe\" filled=\"f\" stroked=\"f\">&nbsp;<v:stroke joinstyle=\"miter\"></v:stroke><v:formulas><v:f eqn=\"if lineDrawn pixelLineWidth 0\"></v:f><v:f eqn=\"sum @0 1 0\"></v:f><v:f eqn=\"sum 0 0 @1\"></v:f><v:f eqn=\"prod @2 1 2\"></v:f><v:f eqn=\"prod @3 21600 pixelWidth\"></v:f><v:f eqn=\"prod @3 21600 pixelHeight\"></v:f><v:f eqn=\"sum @0 0 1\"></v:f><v:f eqn=\"prod @6 1 2\"></v:f><v:f eqn=\"prod @7 21600 pixelWidth\"></v:f><v:f eqn=\"sum @8 21600 0\"></v:f><v:f eqn=\"prod @7 21600 pixelHeight\"></v:f><v:f eqn=\"sum @10 21600 0\"></v:f></v:formulas><v:path o:extrusionok=\"f\" gradientshapeok=\"t\" o:connecttype=\"rect\"></v:path><o:lock v:ext=\"edit\" aspectratio=\"t\"></o:lock></v:shapetype></span></span><b><span lang=\"EN-US\" style=\"font-family: Arial; color: black; font-size: 9.5pt\">1</span></b><font face=\"宋体\"><b><span style=\"color: black; font-size: 9.5pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial\">、使用者非个人化信息</span></b><b><span lang=\"EN-US\" style=\"font-family: Arial; color: #88c22c; font-size: 9.5pt\"><o:p></o:p></span></b></font></p>\r\n<p style=\"line-height: 16.3pt; margin: 0cm 0cm 0pt\"><span lang=\"EN-US\" style=\"font-family: Arial; color: #666666; font-size: 9.5pt\">&nbsp; &nbsp; &nbsp; &nbsp;</span><span style=\"color: #666666; font-size: 9.5pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial\"><font face=\"宋体\">我们将通过您的</font></span><span lang=\"EN-US\" style=\"font-family: Arial; color: #666666; font-size: 9.5pt\">IP</span><span style=\"color: #666666; font-size: 9.5pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial\"><font face=\"宋体\">地址来收集非个人化的信息，例如您的浏览器性质、操作系统种类、给您提供接入服务的</font></span><span lang=\"EN-US\" style=\"font-family: Arial; color: #666666; font-size: 9.5pt\">ISP</span><font face=\"宋体\"><span style=\"color: #666666; font-size: 9.5pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial\">的域名等，以优化在您计算机屏幕上显示的页面。通过收集上述信息，我们亦进行客流量统计，从而改进网站的管理和服务。</span></font></p>\r\n<p style=\"line-height: 16.3pt; margin: 0cm 0cm 0pt\">&nbsp;</p>\r\n<p class=\"liname\" style=\"line-height: 16.3pt; margin: 0cm 0cm 0pt\"><b><span lang=\"EN-US\" style=\"font-family: Arial; color: black; font-size: 9.5pt\">2</span></b><font face=\"宋体\"><b><span style=\"color: black; font-size: 9.5pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial\">、个人资料</span></b></font></p>\r\n<p class=\"liname\" style=\"line-height: 16.3pt; margin: 0cm 0cm 0pt\">&nbsp;</p>\r\n<p style=\"line-height: 16.3pt; margin: 0cm 0cm 0pt\"><span lang=\"EN-US\" style=\"font-family: Arial; color: #666666; font-size: 9.5pt\">&nbsp; &nbsp; &nbsp; &nbsp;</span><font face=\"宋体\"><span style=\"color: #666666; font-size: 9.5pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial\">当您在网站进行用户注册登记、定制业务或参与公共论坛等活动时，在您的同意及确认下，本网站将通过注册表格、订单等形式要求您提供一些个人资料。这些个人资料包括：、</span><span lang=\"EN-US\" style=\"font-family: Arial; color: #666666; font-size: 9.5pt\"><o:p></o:p></span></font></p>\r\n<p style=\"line-height: 16.3pt; margin: 0cm 0cm 0pt\"><span style=\"font-size: larger\"><span style=\"color: #c89340; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial\"><font face=\"宋体\">个人识别资料：如姓名、性别、年龄、出生日期、身份证号码、电话、通信地址、住址、电子邮件地址等情况；</font></span><span lang=\"EN-US\" style=\"font-family: Arial; color: #c89340\"><br />\r\n</span><span style=\"color: #c89340; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial\"><font face=\"宋体\">个人背景：</font></span><span style=\"font-family: Arial; color: #c89340\"> </span><font face=\"宋体\"><span style=\"color: #c89340; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial\">职业、教育程度、收入状况、婚姻、家庭状况。</span></font></span><font face=\"宋体\"><span lang=\"EN-US\" style=\"font-family: Arial; color: #666666; font-size: 9.5pt\"><o:p></o:p></span></font></p>\r\n<p style=\"line-height: 16.3pt; margin: 0cm 0cm 0pt\"><span lang=\"EN-US\" style=\"font-family: Arial; color: #666666; font-size: 9.5pt\">&nbsp; &nbsp; &nbsp;&nbsp;</span><span style=\"color: #666666; font-size: 9.5pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial\"><font face=\"宋体\">请了解，在未经您同意及确认之前，本网站不会将您为参加本网站之特定活动所提供的资料利用于其它目的。惟按下列第</font></span><span lang=\"EN-US\" style=\"font-family: Arial; color: #666666; font-size: 9.5pt\">6</span><font face=\"宋体\"><span style=\"color: #666666; font-size: 9.5pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial\">条规定应政府及法律要求披露时不在此限。</span></font></p>\r\n<p style=\"line-height: 16.3pt; margin: 0cm 0cm 0pt\">&nbsp;</p>\r\n<p class=\"liname\" style=\"line-height: 16.3pt; margin: 0cm 0cm 0pt\"><b><span lang=\"EN-US\" style=\"font-family: Arial; color: black; font-size: 9.5pt\">3</span></b><font face=\"宋体\"><b><span style=\"color: black; font-size: 9.5pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial\">、信息安全</span></b></font></p>\r\n<p class=\"liname\" style=\"line-height: 16.3pt; margin: 0cm 0cm 0pt\">&nbsp;</p>\r\n<p style=\"line-height: 16.3pt; margin: 0cm 0cm 0pt\"><span lang=\"EN-US\" style=\"font-family: Arial; color: #666666; font-size: 9.5pt\">&nbsp; &nbsp; &nbsp;&nbsp;</span><font face=\"宋体\"><span style=\"color: #666666; font-size: 9.5pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial\">本网站将对您所提供的资料进行严格的管理及保护，本网站将使用相应的技术，防止您的个人资料丢失、被盗用或遭窜改。</span><span lang=\"EN-US\" style=\"font-family: Arial; color: #666666; font-size: 9.5pt\"><o:p></o:p></span></font></p>\r\n<p style=\"line-height: 16.3pt; margin: 0cm 0cm 0pt\"><span lang=\"EN-US\" style=\"font-family: Arial; color: #666666; font-size: 9.5pt\">&nbsp; &nbsp; &nbsp;&nbsp;</span><span style=\"color: #666666; font-size: 9.5pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial\"><font face=\"宋体\">本网站得在必要时委托专业技术人员代为对该类资料进行电脑处理，以符合专业分工时代的需求。如本网站将电脑处理之通知送达予您，而您未在通知规定的时间内主动明示反对，本网站将推定您已同意。惟在其后您仍然有权如下述第</font></span><st1:chsdate year=\"1899\" month=\"12\" day=\"30\" islunardate=\"False\" isrocdate=\"False\" w:st=\"on\"><span lang=\"EN-US\" style=\"font-family: Arial; color: #666666; font-size: 9.5pt\">4.1.4</span></st1:chsdate><font face=\"宋体\"><span style=\"color: #666666; font-size: 9.5pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial\">条之规定，请求停止电脑处理。</span></font></p>\r\n<p style=\"line-height: 16.3pt; margin: 0cm 0cm 0pt\">&nbsp;</p>\r\n<p class=\"liname\" style=\"line-height: 16.3pt; margin: 0cm 0cm 0pt\"><b><span lang=\"EN-US\" style=\"font-family: Arial; color: black; font-size: 9.5pt\">4</span></b><font face=\"宋体\"><b><span style=\"color: black; font-size: 9.5pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial\">、用户权利</span></b></font></p>\r\n<p class=\"liname\" style=\"line-height: 16.3pt; margin: 0cm 0cm 0pt\">&nbsp;</p>\r\n<p style=\"line-height: 16.3pt; margin: 0cm 0cm 0pt\"><font face=\"宋体\"><span style=\"color: #666666; font-size: 9.5pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial\">您对于自己的个人资料享有以下权利：</span><span lang=\"EN-US\" style=\"font-family: Arial; color: #666666; font-size: 9.5pt\"><o:p></o:p></span></font></p>\r\n<p style=\"line-height: 16.3pt; margin: 0cm 0cm 0pt\"><span lang=\"EN-US\" style=\"font-family: Arial; color: #c89340; font-size: 9.5pt\">&nbsp; &nbsp; &nbsp; &nbsp; ●&nbsp;</span><font face=\"宋体\"><span style=\"color: #c89340; font-size: 9.5pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial\">随时查询及请求阅览；</span><span lang=\"EN-US\" style=\"font-family: Arial; color: #666666; font-size: 9.5pt\"><o:p></o:p></span></font></p>\r\n<p style=\"line-height: 16.3pt; margin: 0cm 0cm 0pt\"><span lang=\"EN-US\" style=\"font-family: Arial; color: #c89340; font-size: 9.5pt\">&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;●&nbsp;</span><font face=\"宋体\"><span style=\"color: #c89340; font-size: 9.5pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial\">随时请求补充或更正；</span><span lang=\"EN-US\" style=\"font-family: Arial; color: #666666; font-size: 9.5pt\"><o:p></o:p></span></font></p>\r\n<p style=\"line-height: 16.3pt; margin: 0cm 0cm 0pt\"><span lang=\"EN-US\" style=\"font-family: Arial; color: #c89340; font-size: 9.5pt\">&nbsp; &nbsp; &nbsp; &nbsp; ●&nbsp;</span><font face=\"宋体\"><span style=\"color: #c89340; font-size: 9.5pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial\">随时请求删除；</span><span lang=\"EN-US\" style=\"font-family: Arial; color: #666666; font-size: 9.5pt\"><o:p></o:p></span></font></p>\r\n<p style=\"line-height: 16.3pt; margin: 0cm 0cm 0pt\"><span lang=\"EN-US\" style=\"font-family: Arial; color: #c89340; font-size: 9.5pt\">&nbsp; &nbsp; &nbsp; &nbsp; ●&nbsp;</span><font face=\"宋体\"><span style=\"color: #c89340; font-size: 9.5pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial\">请求停止电脑处理及利用。</span><span lang=\"EN-US\" style=\"font-family: Arial; color: #666666; font-size: 9.5pt\"><o:p></o:p></span></font></p>\r\n<p style=\"line-height: 16.3pt; margin: 0cm 0cm 0pt\"><span lang=\"EN-US\" style=\"font-family: Arial; color: #c89340; font-size: 9.5pt\">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;●&nbsp;</span><font face=\"宋体\"><span style=\"color: #c89340; font-size: 9.5pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial\">限制利用原则</span><span lang=\"EN-US\" style=\"font-family: Arial; color: #666666; font-size: 9.5pt\"><o:p></o:p></span></font></p>\r\n<p style=\"line-height: 16.3pt; margin: 0cm 0cm 0pt\"><font face=\"宋体\"><span style=\"color: #666666; font-size: 9.5pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial\">本网站惟在符合下列条件之一，方对收集之个人资料进行必要范围以外之利用：</span><span lang=\"EN-US\" style=\"font-family: Arial; color: #666666; font-size: 9.5pt\"><o:p></o:p></span></font></p>\r\n<p style=\"line-height: 16.3pt; margin: 0cm 0cm 0pt\"><span lang=\"EN-US\" style=\"font-family: Arial; color: red; font-size: 9.5pt\">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span><span lang=\"EN-US\" style=\"font-family: Arial; color: #c89340; font-size: 9.5pt\">●&nbsp;</span><font face=\"宋体\"><span style=\"color: #c89340; font-size: 9.5pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial\">已取得您的书面同意；</span><span lang=\"EN-US\" style=\"font-family: Arial; color: #666666; font-size: 9.5pt\"><o:p></o:p></span></font></p>\r\n<p style=\"line-height: 16.3pt; margin: 0cm 0cm 0pt\"><span lang=\"EN-US\" style=\"font-family: Arial; color: #c89340; font-size: 9.5pt\">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;●&nbsp;</span><font face=\"宋体\"><span style=\"color: #c89340; font-size: 9.5pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial\">为免除您在生命、身体或财产方面之急迫危险；</span><span lang=\"EN-US\" style=\"font-family: Arial; color: #666666; font-size: 9.5pt\"><o:p></o:p></span></font></p>\r\n<p style=\"line-height: 16.3pt; margin: 0cm 0cm 0pt\"><spanlang=\"EN-US\" style=\"font-family: Arial; color: #c89340; font-size: 9.5pt\">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;●&nbsp;</span><font face=\"宋体\"><span style=\"color: #c89340; font-size: 9.5pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial\">为防止他人权益之重大危害；</span><span lang=\"EN-US\" style=\"font-family: Arial; color: #666666; font-size: 9.5pt\"><o:p></o:p></span></font></p>\r\n<p style=\"line-height: 16.3pt; margin: 0cm 0cm 0pt\"><span lang=\"EN-US\" style=\"font-family: Arial; color: #c89340; font-size: 9.5pt\">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;●&nbsp;</span><font face=\"宋体\"><span style=\"color: #c89340; font-size: 9.5pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial\">为增进公共利益，</span><span lang=\"EN-US\" style=\"font-family: Arial; color: #666666; font-size: 9.5pt\"><o:p></o:p></span></font></p>\r\n<p style=\"line-height: 16.3pt; margin: 0cm 0cm 0pt\"><span lang=\"EN-US\" style=\"font-family: Arial; color: #c89340; font-size: 9.5pt\">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;●&nbsp;</span><font face=\"宋体\"><span style=\"color: #c89340; font-size: 9.5pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial\">且无害于您的重大利益。</span><span lang=\"EN-US\" style=\"font-family: Arial; color: #666666; font-size: 9.5pt\"><o:p></o:p></span></font></p>\r\n<p class=\"liname\" style=\"line-height: 16.3pt; margin: 0cm 0cm 0pt\"><b><span lang=\"EN-US\" style=\"font-family: Arial; color: #88c22c; font-size: 9.5pt\">&nbsp;<o:p></o:p></span></b></p>\r\n<p class=\"liname\" style=\"line-height: 16.3pt; margin: 0cm 0cm 0pt\"><b><span lang=\"EN-US\" style=\"font-family: Arial; color: black; font-size: 9.5pt\">3</span></b><font face=\"宋体\"><b><span style=\"color: black; font-size: 9.5pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial\">、个人资料之披露</span></b></font></p>\r\n<p class=\"liname\" style=\"line-height: 16.3pt; margin: 0cm 0cm 0pt\">&nbsp;</p>\r\n<p style=\"line-height: 16.3pt; margin: 0cm 0cm 0pt\"><span lang=\"EN-US\" style=\"font-family: Arial; color: #666666; font-size: 9.5pt\">&nbsp; &nbsp; &nbsp;&nbsp;</span><font face=\"宋体\"><span style=\"color: #666666; font-size: 9.5pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial\">当政府机关依照法定程序要求本网站披露个人资料时，本网站将根据执法单位之要求或为公共安全之目的提供个人资料。在此情况下之任何披露，本网站均得免责。</span></font></p>\r\n<p style=\"line-height: 16.3pt; margin: 0cm 0cm 0pt\">&nbsp;</p>\r\n<p class=\"liname\" style=\"line-height: 16.3pt; margin: 0cm 0cm 0pt\"><b><span lang=\"EN-US\" style=\"font-family: Arial; color: black; font-size: 9.5pt\">4</span></b><font face=\"宋体\"><b><span style=\"color: black; font-size: 9.5pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial\">、未成年人隐私权的保护</span></b></font></p>\r\n<p class=\"liname\" style=\"line-height: 16.3pt; margin: 0cm 0cm 0pt\">&nbsp;</p>\r\n<p style=\"line-height: 16.3pt; margin: 0cm 0cm 0pt\"><span lang=\"EN-US\" style=\"font-family: Arial; color: #666666; font-size: 9.5pt\">&nbsp; &nbsp; &nbsp;&nbsp;</span><span style=\"color: #666666; font-size: 9.5pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial\"><font face=\"宋体\">本网站将建立和维持一合理的程序，以保护未成年人个人资料的保密性及安全性。本网站郑重声明：任何</font></span><span lang=\"EN-US\" style=\"font-family: Arial; color: #666666; font-size: 9.5pt\">16</span><span style=\"color: #666666; font-size: 9.5pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial\"><font face=\"宋体\">岁以下的未成年人参加网上活动应事先得到家长或其法定监护人（以下统称为</font></span><span lang=\"EN-US\" style=\"font-family: Arial; color: #666666; font-size: 9.5pt\">&quot;</span><span style=\"color: #666666; font-size: 9.5pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial\"><font face=\"宋体\">监护人</font></span><span lang=\"EN-US\" style=\"font-family: Arial; color: #666666; font-size: 9.5pt\">&quot;</span><font face=\"宋体\"><span style=\"color: #666666; font-size: 9.5pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial\">）的可经查证的同意。</span><span lang=\"EN-US\" style=\"font-family: Arial; color: #666666; font-size: 9.5pt\"><o:p></o:p></span></font></p>\r\n<p style=\"line-height: 16.3pt; margin: 0cm 0cm 0pt\"><font face=\"宋体\"><span style=\"color: #666666; font-size: 9.5pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial\">监护人应承担保护未成年人在网络环境下的隐私权的首要责任。</span><span lang=\"EN-US\" style=\"font-family: Arial; color: #666666; font-size: 9.5pt\"><o:p></o:p></span></font></p>\r\n<p style=\"line-height: 16.3pt; margin: 0cm 0cm 0pt\"><span lang=\"EN-US\" style=\"font-family: Arial; color: #666666; font-size: 9.5pt\">&nbsp; &nbsp; &nbsp;&nbsp;</span><font face=\"宋体\"><span style=\"color: #666666; font-size: 9.5pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial\">本网站收集未成年人的个人资料，仅为回覆未成人特定要求的目的，一俟回复完毕即从记录中删除，而不会保留这些资料做进一步的利用。</span><span lang=\"EN-US\" style=\"font-family: Arial; color: #666666; font-size: 9.5pt\"><o:p></o:p></span></font></p>\r\n<p style=\"line-height: 16.3pt; margin: 0cm 0cm 0pt\"><span lang=\"EN-US\" style=\"font-family: Arial; color: #666666; font-size: 9.5pt\">&nbsp; &nbsp; &nbsp;&nbsp;</span><font face=\"宋体\"><span style=\"color: #666666; font-size: 9.5pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial\">未经监护人之同意，本网站将不会使用未成年人之个人资料，亦不会向任何第三方披露或传送可识别该未成人的个人资料。本网站如收集监护人或未成年人的姓名或其它网络通讯资料之目的仅是为获得监护人同意，则在经过一段合理时间仍未获得同意时，将主动从记录中删除此类资料。</span><span lang=\"EN-US\" style=\"font-family: Arial; color: #666666; font-size: 9.5pt\"><o:p></o:p></span></font></p>\r\n<p style=\"line-height: 16.3pt; margin: 0cm 0cm 0pt\"><strong><span style=\"font-family: 宋体; color: #666666; font-size: 9.5pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial\">若经未成人之监护人同意，本网站可对未成年人之个人资料进行收集，本网站将向监护人提供：</span></strong><span lang=\"EN-US\" style=\"font-family: Arial; color: #666666; font-size: 9.5pt\"><o:p></o:p></span></p>\r\n<p><span lang=\"EN-US\" style=\"font-family: Arial; color: #c89340; font-size: 8pt\">&nbsp; &nbsp; &nbsp;&gt;&gt;</span><font face=\"宋体\"><span style=\"color: #c89340; font-size: 8pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial\">审视自其子女或被监护人收集之资料的机会；</span><span lang=\"EN-US\" style=\"font-family: Arial; color: #333333; font-size: 8pt\"><o:p></o:p></span></font></p>\r\n<p><span lang=\"EN-US\" style=\"font-family: Arial; color: #c89340; font-size: 8pt\">&nbsp; &nbsp; &nbsp;&gt;&gt;</span><font face=\"宋体\"><span style=\"color: #c89340; font-size: 8pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial\">拒绝其子女或被监护人的个人资料被进一步的收集或利用的机会；</span><span lang=\"EN-US\" style=\"font-family: Arial; color: #333333; font-size: 8pt\"><o:p></o:p></span></font></p>\r\n<p><span lang=\"EN-US\" style=\"font-family: Arial; color: #c89340; font-size: 8pt\">&nbsp; &nbsp; &nbsp;&gt;&gt;</span><font face=\"宋体\"><span style=\"color: #c89340; font-size: 8pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial\">变更或删除其子女或被监护人个人资料的方式。</span><span lang=\"EN-US\" style=\"font-family: Arial; color: #333333; font-size: 8pt\"><o:p></o:p></span></font></p>\r\n<p style=\"line-height: 16.3pt; margin: 0cm 0cm 0pt\"><font face=\"宋体\"><span style=\"color: #666666; font-size: 9.5pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial\">监护人有权拒绝本网站与其子女或被监护人做进一步的联络。</span><span lang=\"EN-US\" style=\"font-family: Arial; color: #666666; font-size: 9.5pt\"><o:p></o:p></span></font></p>\r\n<p style=\"line-height: 16.3pt; margin: 0cm 0cm 0pt\"><span lang=\"EN-US\" style=\"font-family: Arial; color: #666666; font-size: 9.5pt\">&nbsp; &nbsp; &nbsp;&nbsp;</span><font face=\"宋体\"><span style=\"color: #666666; font-size: 9.5pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial\">本网站收集未成年人的个人资料，这些资料只是单纯作为保护未成年人参与网络活动时的安全，而非作为其它目的之利用。本网站保证不会要求未成年人提供额外的个人资料，以作为允许其参与网上活动的条件。</span></font></p>\r\n<p style=\"line-height: 16.3pt; margin: 0cm 0cm 0pt\">&nbsp;</p>\r\n<p class=\"liname\" style=\"line-height: 16.3pt; margin: 0cm 0cm 0pt\"><b><span lang=\"EN-US\" style=\"font-family: Arial; color: black; font-size: 9.5pt\">5</span></b><b><span style=\"color: black; font-size: 9.5pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial\"><font face=\"宋体\">、</font></span></b><b><span lang=\"EN-US\" style=\"font-family: Arial; color: black; font-size: 9.5pt\">Cookies</span></b></p>\r\n<p class=\"liname\" style=\"line-height: 16.3pt; margin: 0cm 0cm 0pt\">&nbsp;</p>\r\n<p style=\"line-height: 16.3pt; margin: 0cm 0cm 0pt\"><span lang=\"EN-US\" style=\"font-family: Arial; color: #666666; font-size: 9.5pt\">&nbsp; &nbsp; &nbsp;&nbsp;Cookies</span><span style=\"color: #666666; font-size: 9.5pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial\"><font face=\"宋体\">是指一种技术，当使用者访问设有</font></span><span lang=\"EN-US\" style=\"font-family: Arial; color: #666666; font-size: 9.5pt\">Cookies</span><span style=\"color: #666666; font-size: 9.5pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial\"><font face=\"宋体\">装置的本网站时，本网站之服务器会自动发送</font></span><span lang=\"EN-US\" style=\"font-family: Arial; color: #666666; font-size: 9.5pt\">Cookies</span><span style=\"color: #666666; font-size: 9.5pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial\"><font face=\"宋体\">至阁下浏览器内，并储存到您的电脑硬盘内，此</font></span><span lang=\"EN-US\" style=\"font-family: Arial; color: #666666; font-size: 9.5pt\">Cookies</span><font face=\"宋体\"><span style=\"color: #666666; font-size: 9.5pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial\">便负责记录日后您到访本网站的种种活动、个人资料、浏览习惯、消费习惯甚至信用记录。</span><span lang=\"EN-US\" style=\"font-family: Arial; color: #666666; font-size: 9.5pt\"><o:p></o:p></span></font></p>\r\n<p style=\"line-height: 16.3pt; margin: 0cm 0cm 0pt\"><span lang=\"EN-US\" style=\"font-family: Arial; color: #666666; font-size: 9.5pt\">&nbsp; &nbsp; &nbsp;&nbsp;</span><span style=\"color: #666666; font-size: 9.5pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial\"><font face=\"宋体\">运用</font></span><span lang=\"EN-US\" style=\"font-family: Arial; color: #666666; font-size: 9.5pt\">Cookies</span><span style=\"color: #666666; font-size: 9.5pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial\"><font face=\"宋体\">技术，本网站能够为您提供更加周到的个性化服务。本网站将会运用</font></span><span lang=\"EN-US\" style=\"font-family: Arial; color: #666666; font-size: 9.5pt\">Cookies</span><font face=\"宋体\"><span style=\"color: #666666; font-size: 9.5pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial\">追访您的购物喜好，从而向您提供感兴趣的信息资料或储存密码，以便您造访本网站时不必每次重复输入密码。</span></font></p>\r\n<p style=\"line-height: 16.3pt; margin: 0cm 0cm 0pt\">&nbsp;</p>\r\n<p class=\"liname\" style=\"line-height: 16.3pt; margin: 0cm 0cm 0pt\"><font face=\"宋体\"><b><span style=\"color: black; font-size: 9.5pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial\">免责</span></b></font></p>\r\n<p class=\"liname\" style=\"line-height: 16.3pt; margin: 0cm0cm 0pt\">&nbsp;</p>\r\n<p style=\"line-height: 16.3pt; margin: 0cm 0cm 0pt\"><strong><span style=\"font-family: 宋体; color: #666666; font-size: 9.5pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial\">除上述第</span></strong><strong><span lang=\"EN-US\" style=\"font-family: Arial; color: #666666; font-size: 9.5pt\">6</span></strong><strong><span style=\"font-family: 宋体; color: #666666; font-size: 9.5pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial\">条规定属免责外，下列情况时本网站亦毋需承担任何责任：</span></strong><span lang=\"EN-US\" style=\"font-family: Arial; color: #666666; font-size: 9.5pt\"><o:p></o:p></span></p>\r\n<p><span lang=\"EN-US\" style=\"font-family: Arial; color: #c89340; font-size: 8pt\">&nbsp; &nbsp; &nbsp; ● </span><font face=\"宋体\"><span style=\"color: #c89340; font-size: 8pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial\">由于您将用户密码告知他人或与他人共享注册帐户，由此导致的任何个人资料泄露。</span><span lang=\"EN-US\" style=\"font-family: Arial; color: #333333; font-size: 8pt\"><o:p></o:p></span></font></p>\r\n<p><span lang=\"EN-US\" style=\"font-family: Arial; color: #c89340; font-size: 8pt\">&nbsp; &nbsp; &nbsp; ●&nbsp;</span><span style=\"color: #c89340; font-size: 8pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial\"><font face=\"宋体\">任何由于计算机</font></span><span lang=\"EN-US\" style=\"font-family: Arial; color: #c89340; font-size: 8pt\">2000</span><span style=\"color: #c89340; font-size: 8pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial\"><font face=\"宋体\">年问题、黑客政击、计算机病毒侵入或发作、因政府管制而造成的暂时性关闭等影响网络</font></span><span lang=\"EN-US\" style=\"font-family: Arial; color: #c89340; font-size: 8pt\"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><font face=\"宋体\"><span style=\"color: #c89340; font-size: 8pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial\">正常经营之不可抗力而造成的个人资料泄露、丢失、被盗用或被窜改等。</span><span lang=\"EN-US\" style=\"font-family: Arial; color: #333333; font-size: 8pt\"><o:p></o:p></span></font></p>\r\n<p><span lang=\"EN-US\" style=\"font-family: Arial; color: #c89340; font-size: 8pt\">&nbsp; &nbsp; &nbsp; ●&nbsp;</span><font face=\"宋体\"><span style=\"color: #c89340; font-size: 8pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial\">由于与本网站链接的其它网站所造成之个人资料泄露及由此而导致的任何法律争议和后果。</span><span lang=\"EN-US\" style=\"font-family: Arial; color: #333333; font-size: 8pt\"><o:p></o:p></span></font></p>\r\n<p style=\"line-height: 16.3pt; margin: 0cm 0cm 0pt\">&nbsp;</p>', '1342921194', '1366861308', '1', '0', '4', '0', '0');
+INSERT INTO `sline_serverlist` VALUES ('14', '1', '1', '法律声明 ', null, null, '<p>&nbsp;法律声明</p>', '1379472199', '1379472199', '1', '0', '1', null, '0');
+
+
+INSERT INTO `sline_site_page` VALUES ('1', '0', '公共模块', '');
+INSERT INTO `sline_site_page` VALUES ('2', '1', '网页头部', 'header');
+INSERT INTO `sline_site_page` VALUES ('3', '1', '网页底部', 'footer');
+INSERT INTO `sline_site_page` VALUES ('4', '0', '首页模块', '');
+INSERT INTO `sline_site_page` VALUES ('5', '4', '网站首页', 'index');
+INSERT INTO `sline_site_page` VALUES ('6', '0', '线路模块', null);
+INSERT INTO `sline_site_page` VALUES ('7', '0', '酒店模块', null);
+INSERT INTO `sline_site_page` VALUES ('9', '6', '线路列表页', 'line_list');
+INSERT INTO `sline_site_page` VALUES ('10', '6', '线路详细页', 'line_show');
+INSERT INTO `sline_site_page` VALUES ('12', '7', '酒店列表页', 'hotel_list');
+INSERT INTO `sline_site_page` VALUES ('13', '7', '酒店详细页', 'hotel_show');
+INSERT INTO `sline_site_page` VALUES ('14', '0', '租车模块', null);
+INSERT INTO `sline_site_page` VALUES ('16', '14', '租车列表页', 'car_list');
+INSERT INTO `sline_site_page` VALUES ('17', '14', '租车详细页', 'car_show');
+INSERT INTO `sline_site_page` VALUES ('18', '0', '攻略模块', null);
+INSERT INTO `sline_site_page` VALUES ('20', '18', '攻略列表页', 'article_list');
+INSERT INTO `sline_site_page` VALUES ('21', '18', '攻略详细页', 'article_show');
+INSERT INTO `sline_site_page` VALUES ('22', '0', '门票模块', null);
+INSERT INTO `sline_site_page` VALUES ('24', '22', '门票列表页', 'menpiao_list');
+INSERT INTO `sline_site_page` VALUES ('25', '22', '门票详细页', 'menpiao_shoa');
+INSERT INTO `sline_site_page` VALUES ('26', '0', '景点模块', null);
+INSERT INTO `sline_site_page` VALUES ('28', '26', '景点列表页', 'spot_list');
+INSERT INTO `sline_site_page` VALUES ('29', '26', '景点详细页', 'spot_show');
+INSERT INTO `sline_site_page` VALUES ('30', '0', '相册模块', null);
+INSERT INTO `sline_site_page` VALUES ('32', '30', '相册列表页', 'photo_list');
+INSERT INTO `sline_site_page` VALUES ('33', '30', '相册详细页', 'photo_show');
+INSERT INTO `sline_site_page` VALUES ('34', '0', '签证模块', null);
+INSERT INTO `sline_site_page` VALUES ('36', '34', '签证列表页', 'visa_list');
+INSERT INTO `sline_site_page` VALUES ('37', '34', '签证详细页', 'visa_show');
+INSERT INTO `sline_site_page` VALUES ('38', '0', '团购模块', null);
+INSERT INTO `sline_site_page` VALUES ('40', '38', '团购列表页', 'tuan_list');
+INSERT INTO `sline_site_page` VALUES ('41', '38', '团购详细页', 'tuan_show');
+INSERT INTO `sline_site_page` VALUES ('47', '0', '底部导航模块', null);
+INSERT INTO `sline_site_page` VALUES ('48', '47', '底部导航显示页', 'footer_show');
+INSERT INTO `sline_site_page` VALUES ('54', '1', '底部FAQ栏', 'help');
+INSERT INTO `sline_site_page` VALUES ('55', '1', '底部友情连接', 'flink');
+
+INSERT INTO `sline_sms_msg` VALUES ('1', 'reg', '恭喜您注册成功为{#WEBNAME#}会员，帐号：{#LOGINNAME#}密码：{#PASSWORD#}，您也可通过手机为帐号登陆网站。', '0');
+INSERT INTO `sline_sms_msg` VALUES ('2', 'line_order_msg1', '尊敬的会员{#MEMBERNAME#}:您预订的{#PRODUCTNAME#}产品,我们将于30分钟内尽快确认您的预订.', '0');
+INSERT INTO `sline_sms_msg` VALUES ('3', 'line_order_msg2', '尊敬的会员{#MEMBERNAME#}:您预订的{#PRODUCTNAME#}产品 数量:{#NUMBER#},总价格:{#TOTALPRICE#}已经提交成功,请你尽快进行支付.', '1');
+INSERT INTO `sline_sms_msg` VALUES ('4', 'line_order_msg3', '尊敬的会员{#MEMBERNAME#}:您已成功预订{#PRODUCTNAME#}产品 数量{#NUMBER#},请凭{#WEBNAME#}提示短信前住消费.', '0');
+INSERT INTO `sline_sms_msg` VALUES ('5', 'line_order_msg4', '尊敬的会员{#MEMBERNAME#}:您已预订{#PRODUCTNAME#}产品因系统原因被取消.', '0');
+INSERT INTO `sline_sms_msg` VALUES ('6', 'hotel_order_msg1', '尊敬的会员{#MEMBERNAME#}:您预订的{#PRODUCTNAME#}产品,我们将于30分钟内尽快确认您的预订.', '0');
+INSERT INTO `sline_sms_msg` VALUES ('7', 'hotel_order_msg2', '尊敬的会员{#MEMBERNAME#}:您预订的{#PRODUCTNAME#}产品 数量:{#NUMBER#},总价格:{#TOTALPRICE#}已经提交成功,请你尽快进行支付.', '0');
+INSERT INTO `sline_sms_msg` VALUES ('8', 'hotel_order_msg3', '尊敬的会员{#MEMBERNAME#}:您已成功预订{#PRODUCTNAME#}产品 数量{#NUMBER#},请凭{#WEBNAME#}提示短信前住消费.', '0');
+INSERT INTO `sline_sms_msg` VALUES ('9', 'hotel_order_msg4', '尊敬的会员{#MEMBERNAME#}:您已预订{#PRODUCTNAME#}产品因系统原因被取消.', '0');
+INSERT INTO `sline_sms_msg` VALUES ('10', 'car_order_msg1', '尊敬的会员{#MEMBERNAME#}:您预订的{#PRODUCTNAME#}产品,我们将于30分钟内尽快确认您的预订.', '0');
+INSERT INTO `sline_sms_msg` VALUES ('11', 'car_order_msg2', '尊敬的会员{#MEMBERNAME#}:您预订的{#PRODUCTNAME#}产品 数量:{#NUMBER#},总价格:{#TOTALPRICE#}已经提交成功,请你尽快进行支付.', '0');
+INSERT INTO `sline_sms_msg` VALUES ('12', 'car_order_msg3', '尊敬的会员{#MEMBERNAME#}:您已成功预订{#PRODUCTNAME#}产品 数量{#NUMBER#},请凭{#WEBNAME#}提示短信前住消费.', '0');
+INSERT INTO `sline_sms_msg` VALUES ('13', 'car_order_msg4', '尊敬的会员{#MEMBERNAME#}:您已预订{#PRODUCTNAME#}产品因系统原因被取消.', '0');
+INSERT INTO `sline_sms_msg` VALUES ('14', 'spot_order_msg1', '尊敬的会员{#MEMBERNAME#}:您预订的{#PRODUCTNAME#}产品,我们将于30分钟内尽快确认您的预订.', '0');
+INSERT INTO `sline_sms_msg` VALUES ('15', 'spot_order_msg2', '尊敬的会员{#MEMBERNAME#}:您预订的{#PRODUCTNAME#}产品 数量:{#NUMBER#},总价格:{#TOTALPRICE#}已经提交成功,请你尽快进行支付.', '0');
+INSERT INTO `sline_sms_msg` VALUES ('16', 'spot_order_msg3', '尊敬的会员{#MEMBERNAME#}:您已成功预订{#PRODUCTNAME#}产品 数量{#NUMBER#},请凭{#WEBNAME#}提示短信前住消费.', '0');
+INSERT INTO `sline_sms_msg` VALUES ('17', 'spot_order_msg4', '尊敬的会员{#MEMBERNAME#}:您已预订{#PRODUCTNAME#}产品因系统原因被取消.', '0');
+INSERT INTO `sline_sms_msg` VALUES ('18', 'visa_order_msg1', '尊敬的会员{#MEMBERNAME#}:您预订的{#PRODUCTNAME#}产品,我们将于30分钟内尽快确认您的预订.', '0');
+INSERT INTO `sline_sms_msg` VALUES ('19', 'visa_order_msg2', '尊敬的会员{#MEMBERNAME#}:您预订的{#PRODUCTNAME#}产品 数量:{#NUMBER#},总价格:{#TOTALPRICE#}已经提交成功,请你尽快进行支付.', '0');
+INSERT INTO `sline_sms_msg` VALUES ('20', 'visa_order_msg3', '尊敬的会员{#MEMBERNAME#}:您已成功预订{#PRODUCTNAME#}产品 数量{#NUMBER#},请凭{#WEBNAME#}提示短信前住消费.', '0');
+INSERT INTO `sline_sms_msg` VALUES ('21', 'visa_order_msg4', '尊敬的会员{#MEMBERNAME#}:您已预订{#PRODUCTNAME#}产品因系统原因被取消.', '0');
+INSERT INTO `sline_sms_msg` VALUES ('22', 'tuan_order_msg1', '尊敬的会员{#MEMBERNAME#}:您预订的{#PRODUCTNAME#}产品,我们将于30分钟内尽快确认您的预订.', '0');
+INSERT INTO `sline_sms_msg` VALUES ('23', 'tuan_order_msg2', '尊敬的会员{#MEMBERNAME#}:您预订的{#PRODUCTNAME#}产品 数量:{#NUMBER#},总价格:{#TOTALPRICE#}已经提交成功,请你尽快进行支付.', '0');
+INSERT INTO `sline_sms_msg` VALUES ('24', 'tuan_order_msg3', '尊敬的会员{#MEMBERNAME#}:您已成功预订{#PRODUCTNAME#}产品 数量{#NUMBER#},请凭{#WEBNAME#}提示短信前住消费.', '0');
+INSERT INTO `sline_sms_msg` VALUES ('25', 'tuan_order_msg4', '尊敬的会员{#MEMBERNAME#}:您已预订{#PRODUCTNAME#}产品因系统原因被取消.', '0');
+INSERT INTO `sline_sms_msg` VALUES ('26', 'reg_msgcode', '尊敬的会员,请您在{#WEBNAME#}中输入以下验证码:{#CODE#},完成用户注册.', '0');
+INSERT INTO `sline_sms_msg` VALUES ('27', 'reg_findpwd', '尊敬的会员,请您在{#WEBNAME#}中输入以下验证码:{#CODE#},完成密码找回验证.', '0');
+
+INSERT INTO `sline_spot_attr` VALUES ('1', '0', '森林', '1', '1', '13', null, '0', null, null);
+INSERT INTO `sline_spot_attr` VALUES ('2', '0', '草原', '2', '1', '13', null, '0', null, null);
+INSERT INTO `sline_spot_attr` VALUES ('3', '0', '购物', '3', '1', '13', null, '0', null, null);
+INSERT INTO `sline_spot_attr` VALUES ('4', '0', '亲子', '4', '1', '13', null, '0', null, null);
+INSERT INTO `sline_spot_attr` VALUES ('5', '0', '雪山', '5', '1', '13', null, '0', null, null);
+INSERT INTO `sline_spot_attr` VALUES ('6', '0', '海岛', '9999', '1', '13', null, '0', null, null);
+INSERT INTO `sline_spot_attr` VALUES ('7', '0', '蜜月', '9999', '1', '13', null, '0', null, null);
+INSERT INTO `sline_spot_attr` VALUES ('8', '0', '美食', '9999', '1', '13', null, '0', null, null);
+INSERT INTO `sline_spot_attr` VALUES ('9', '0', '都市', '9999', '1', '13', null, '0', null, null);
+INSERT INTO `sline_spot_attr` VALUES ('10', '0', '古城古镇', '9999', '1', '13', null, '0', null, null);
+INSERT INTO `sline_spot_attr` VALUES ('11', '0', '亲子', '9999', '1', '13', null, '0', null, null);
+INSERT INTO `sline_spot_attr` VALUES ('12', '0', '高原', '6', '1', '13', null, '0', null, null);
+INSERT INTO `sline_spot_attr` VALUES ('13', '0', '景点主题', '1', '1', '0', '', '0', null, null);
+INSERT INTO `sline_spot_attr` VALUES ('19', '0', '景点等级', '9999', '1', '0', null, '0', null, null);
+INSERT INTO `sline_spot_attr` VALUES ('20', '0', 'A', '9999', '1', '19', null, '0', null, null);
+INSERT INTO `sline_spot_attr` VALUES ('21', '0', 'AA', '9999', '1', '19', null, '0', null, null);
+INSERT INTO `sline_spot_attr` VALUES ('22', '0', 'AAA', '9999', '1', '19', null, '0', null, null);
+INSERT INTO `sline_spot_attr` VALUES ('23', '0', 'AAAA', '9999', '1', '19', null, '0', null, null);
+INSERT INTO `sline_spot_attr` VALUES ('24', '0', 'AAAAA', '9999', '1', '19', null, '0', null, null);
+
+
+INSERT INTO `sline_spot_content` VALUES ('1', '0', 'booknotice', '预订须知', '2', '1', '1', '1');
+INSERT INTO `sline_spot_content` VALUES ('2', '0', 'content', '景点介绍', '1', '1', '1', '1');
+INSERT INTO `sline_spot_content` VALUES ('3', '0', 'tupian', '图片', '0', '1', '0', '0');
+
+INSERT INTO `sline_spot_kindlist` VALUES ('36', '36', '', '', '', '', '', '0', '2', '1', '0', '0', '');
+INSERT INTO `sline_spot_kindlist` VALUES ('37', '37', '', '', '', '', '', '0', '3', '1', '0', '0', '');
+
+INSERT INTO `sline_spot_pricelist` VALUES ('1', '0', '1', null, '100');
+INSERT INTO `sline_spot_pricelist` VALUES ('2', '0', '3', '101', '200');
+INSERT INTO `sline_spot_pricelist` VALUES ('3', '0', '5', '201', '300');
+INSERT INTO `sline_spot_pricelist` VALUES ('4', '0', '6', '301', '400');
+INSERT INTO `sline_spot_pricelist` VALUES ('5', '0', '7', '401', '500');
+INSERT INTO `sline_spot_pricelist` VALUES ('6', '0', '8', '501', '600');
+INSERT INTO `sline_spot_pricelist` VALUES ('8', '0', '12', '701', '800');
+INSERT INTO `sline_spot_pricelist` VALUES ('9', '0', '13', '801', null);
+
+
+
+INSERT INTO `sline_startplace` VALUES ('29', '1201', '西南', '0', '1', '9999', null, '0');
+INSERT INTO `sline_startplace` VALUES ('75', null, '成都', '0', '1', '9999', null, '29');
+
+INSERT INTO `sline_sysconfig` VALUES ('1', '0', 'cfg_medias_dir', '上传路径', '/uploads');
+INSERT INTO `sline_sysconfig` VALUES ('2', '0', 'cfg_cmspath', '网站路径', '');
+INSERT INTO `sline_sysconfig` VALUES ('3', '0', 'cfg_cli_time', '时差值', '8');
+INSERT INTO `sline_sysconfig` VALUES ('5', '0', 'cfg_webname', '网站名称', '旅游');
+INSERT INTO `sline_sysconfig` VALUES ('6', '0', 'cfg_keywords', '关键词', 'XXXX旅游网');
+INSERT INTO `sline_sysconfig` VALUES ('7', '0', 'cfg_description', '描述', 'XXXX旅游网');
+INSERT INTO `sline_sysconfig` VALUES ('8', '0', 'cfg_indextitle', '首页标题', 'XXXX旅游网');
+INSERT INTO `sline_sysconfig` VALUES ('9', '0', 'cfg_index_zhuti', '首页主题', '');
+INSERT INTO `sline_sysconfig` VALUES ('10', '0', 'cfg_indexcode', '首页代码', '');
+INSERT INTO `sline_sysconfig` VALUES ('11', '0', 'cfg_gonggao', '公告', '<p><span style=\"color: #808080\">四川门户电子商务网站系统，用于快速建设旅游网站：订购网站<a href=\"http://www.stourweb.com\">www.stourweb.com</a>，电话：4006-0999-27</span></p>');
+INSERT INTO `sline_sysconfig` VALUES ('12', '0', 'cfg_tongjicode', '统计代码 ', '');
+INSERT INTO `sline_sysconfig` VALUES ('13', '0', 'cfg_df_style', '网站样式', 'default');
+INSERT INTO `sline_sysconfig` VALUES ('14', '0', 'cfg_weathcode', '天气代码', '  ');
+INSERT INTO `sline_sysconfig` VALUES ('16', '0', 'cfg_beian', '网站备案号', '');
+INSERT INTO `sline_sysconfig` VALUES ('17', '0', 'cfg_powerby', '网站版权信息', '思途旅游网');
+INSERT INTO `sline_sysconfig` VALUES ('18', '0', 'cfg_indexname', '主页链接名', '首页');
+INSERT INTO `sline_sysconfig` VALUES ('21', '0', 'cfg_notallowstr', '评论禁用词语', '她妈|它妈|他妈|你妈|去死|贱人|SB|航空票|飞航空票');
+INSERT INTO `sline_sysconfig` VALUES ('22', '0', 'cfg_feedback_time', '评论间隔时间', '0');
+INSERT INTO `sline_sysconfig` VALUES ('25', '0', 'cfg_tplcache_dir', '缓存目录', '/data/tplcache');
+
+INSERT INTO `sline_sysconfig` VALUES ('28', '0', 'cfg_logo', 'logo图片', '/uploads/main/adimg/20140303/20140303104231.gif');
+INSERT INTO `sline_sysconfig` VALUES ('29', '0', 'cfg_logourl', 'logo连接位置', 'http://www.stourweb.com');
+INSERT INTO `sline_sysconfig` VALUES ('30', '0', 'cfg_logoalt', 'logo alt标识', '思途旅游CMS');
+INSERT INTO `sline_sysconfig` VALUES ('31', '0', 'cfg_lxslogo', '旅行社标识', '/uploads/main/adimg/20130918/20130918175433.gif');
+INSERT INTO `sline_sysconfig` VALUES ('32', '0', 'cfg_lxslogoalt', 'lxglogo alt标识', 'jjf');
+INSERT INTO `sline_sysconfig` VALUES ('33', '0', 'cfg_lxslogourl', '旅行社logo连接地址', 'http://www.suv.com');
+INSERT INTO `sline_sysconfig` VALUES ('35', '0', 'cfg_Email139', '默认139邮箱', 'd@139.com');
+INSERT INTO `sline_sysconfig` VALUES ('36', '0', 'cfg_lineEmail', '线路139Email', '');
+INSERT INTO `sline_sysconfig` VALUES ('37', '0', 'cfg_carEmail', '车务139Email', '');
+INSERT INTO `sline_sysconfig` VALUES ('38', '0', 'cfg_hotelEmail', '酒店139Email', '');
+INSERT INTO `sline_sysconfig` VALUES ('39', '0', 'cfg_indexphoto', '相册首页滚动情况', '0');
+INSERT INTO `sline_sysconfig` VALUES ('40', '0', 'cfg_payment', '签约付款', '\n<p>&nbsp;<span id=\"1348816711927E\"><span style=\"font-size: larger\">网上预订：直接通过网站下单，在线选择产品并填写相关信息后，提交订单。</span></span></p>\n<p>&nbsp;<span style=\"font-size: larger\">在线预订：拨打咨询/预订电话，由客服帮助您完成信息的确认和下单操作。</span></p>');
+INSERT INTO `sline_sysconfig` VALUES ('41', '0', 'cfg_qsmaillcontent', '邮件内容设置', '<p>我们已经收到并处理了您的提问，欢迎回来访问本站，查看我们的回复；如果您还有疑问，欢迎您提问，我们将尽快回复您！</p>');
+INSERT INTO `sline_sysconfig` VALUES ('42', '0', 'cfg_corephrases', '核心词组', '旅游,思途旅游,思途旅游CMS');
+INSERT INTO `sline_sysconfig` VALUES ('45', '0', 'cfg_wenda_open', '是否开启问答', '0');
+INSERT INTO `sline_sysconfig` VALUES ('46', '0', 'cfg_logodisplay', '网站LOGO显示栏目', '');
+INSERT INTO `sline_sysconfig` VALUES ('47', '0', 'cfg_color', '线路字体颜色', '1');
+INSERT INTO `sline_sysconfig` VALUES ('48', '0', 'cfg_wenEmail', '提问139email', '');
+INSERT INTO `sline_sysconfig` VALUES ('49', '0', 'cfg_indexlinktitle', '首页连接title', '');
+INSERT INTO `sline_sysconfig` VALUES ('60', '0', 'cfg_html_kefu', '客服代码', '');
+INSERT INTO `sline_sysconfig` VALUES ('61', '0', 'cfg_html_editor', '使用的编辑器', 'slineeditor');
+INSERT INTO `sline_sysconfig` VALUES ('64', '0', 'cfg_df_img', '默认图片', '/uploads/main/allimg/20150923/20150923143441.jpg');
+INSERT INTO `sline_sysconfig` VALUES ('65', '0', 'cfg_alipay_account', '支付宝帐号', '');
+INSERT INTO `sline_sysconfig` VALUES ('66', '0', 'cfg_alipay_signtype', '支付宝签约类型', 'cash');
+INSERT INTO `sline_sysconfig` VALUES ('67', '0', 'cfg_alipay_pid', '合作者身份ID', 'FFF');
+INSERT INTO `sline_sysconfig` VALUES ('68', '0', 'cfg_alipay_key', '交易安全校验码', 'FFF');
+INSERT INTO `sline_sysconfig` VALUES ('69', '0', 'cfg_web_open', '网站开关', '1');
+INSERT INTO `sline_sysconfig` VALUES ('70', '0', 'cfg_logoalt', 'logo标识', '思途旅游CMS');
+INSERT INTO `sline_sysconfig` VALUES ('71', '0', 'cfg_alipay_signtype', '签约类型', 'cash');
+INSERT INTO `sline_sysconfig` VALUES ('72', '0', 'cfg_py_open', '评论', '1');
+INSERT INTO `sline_sysconfig` VALUES ('74', '0', 'cfg_supplier_msg', '客户{#LINKMAN#}预订{#PRODUCTNAME#}产品,联系电话:{#PHONE#},人数:{#NUMBER#},单价:{#PRICE#},总价:{#TOTALPRICE#},请尽快处理.', '1');
+INSERT INTO `sline_sysconfig` VALUES ('75', '0', 'cfg_index_templet', null, 'index_1.htm');
+INSERT INTO `sline_sysconfig` VALUES ('76', '0', 'cfg_auto_time', null, '');
+INSERT INTO `sline_sysconfig` VALUES ('77', '0', 'cfg_phone', null, '4006-0999-27');
+INSERT INTO `sline_sysconfig` VALUES ('78', '0', 'cfg_mobile_phone', null, '4006-0999-27');
+
+INSERT INTO `sline_sysconfig` VALUES ('80', '0', 'cfg_bill_account', null, '');
+INSERT INTO `sline_sysconfig` VALUES ('81', '0', 'cfg_bill_key', null, '');
+INSERT INTO `sline_sysconfig` VALUES ('82', '0', 'cfg_huicao_account', null, '');
+INSERT INTO `sline_sysconfig` VALUES ('83', '0', 'cfg_huicao_key', null, '');
+INSERT INTO `sline_sysconfig` VALUES ('84', '0', 'cfg_qianbao_merchno', null, '');
+INSERT INTO `sline_sysconfig` VALUES ('85', '0', 'cfg_qianbao_key', null, '');
+INSERT INTO `sline_sysconfig` VALUES ('86', '0', 'cfg_paypal_key', null, '');
+INSERT INTO `sline_sysconfig` VALUES ('87', '0', 'cfg_paypal_currency', null, '');
+INSERT INTO `sline_sysconfig` VALUES ('88', '0', 'cfg_wxpay_appid', null, '');
+INSERT INTO `sline_sysconfig` VALUES ('89', '0', 'cfg_wxpay_mchid', null, '');
+INSERT INTO `sline_sysconfig` VALUES ('90', '0', 'cfg_wxpay_key', null, '');
+INSERT INTO `sline_sysconfig` VALUES ('91', '0', 'cfg_wxpay_appsecret', null, '');
+INSERT INTO `sline_sysconfig` VALUES ('92', '0', 'cfg_yinlian_type', null, '0');
+INSERT INTO `sline_sysconfig` VALUES ('93', '0', 'cfg_yinlian_merid', null, '');
+INSERT INTO `sline_sysconfig` VALUES ('94', '0', 'cfg_yinlian_mername', null, '');
+INSERT INTO `sline_sysconfig` VALUES ('95', '0', 'cfg_yinlian_securitykey', null, '');
+INSERT INTO `sline_sysconfig` VALUES ('96', '0', 'cfg_yinlian_new_name', null, '');
+INSERT INTO `sline_sysconfig` VALUES ('97', '0', 'cfg_yinlian_new_securitykey', null, '');
+INSERT INTO `sline_sysconfig` VALUES ('98', '0', 'cfg_pay_type', null, '6,11');
+INSERT INTO `sline_sysconfig` VALUES ('99', '0', 'cfg_pay_xianxia', null, '');
+
+INSERT INTO `sline_sysconfig` VALUES ('102', '0', 'cfg_logotitle', null, '');
+INSERT INTO `sline_sysconfig` VALUES ('103', '0', 'cfg_m_logo', null, '/uploads/main/allimg/20150924/20150924160228.gif');
+INSERT INTO `sline_sysconfig` VALUES ('104', '0', 'cfg_qq_appid', null, '');
+INSERT INTO `sline_sysconfig` VALUES ('105', '0', 'cfg_qq_appkey', null, '');
+INSERT INTO `sline_sysconfig` VALUES ('106', '0', 'cfg_sina_appkey', null, '');
+INSERT INTO `sline_sysconfig` VALUES ('107', '0', 'cfg_sina_appsecret', null, '');
+INSERT INTO `sline_sysconfig` VALUES ('108', '0', 'cfg_weixi_appkey', null, '');
+INSERT INTO `sline_sysconfig` VALUES ('109', '0', 'cfg_weixi_appsecret', null, '');
+INSERT INTO `sline_sysconfig` VALUES ('110', '0', 'cfg_mobile_open', null, '1');
+INSERT INTO `sline_sysconfig` VALUES ('111', '0', 'cfg_startcity_open', null, '1');
+INSERT INTO `sline_sysconfig` VALUES ('112', '0', 'cfg_login_jifen', null, '1');
+INSERT INTO `sline_sysconfig` VALUES ('113', '0', 'cfg_reg_jifen', null, '2');
+INSERT INTO `sline_sysconfig` VALUES ('114', '0', 'cfg_exchange_jifen', null, '10');
+INSERT INTO `sline_sysconfig` VALUES ('115', '0', 'cfg_sms_username', null, '');
+INSERT INTO `sline_sysconfig` VALUES ('116', '0', 'cfg_sms_password', null, '');
+INSERT INTO `sline_sysconfig` VALUES ('117', '0', 'cfg_licenseid', null, '00000000');
+INSERT INTO `sline_sysconfig` VALUES ('118', '0', 'cfg_pc_version', null, '5');
+INSERT INTO `sline_sysconfig` VALUES ('119', '0', 'cfg_mobile_version', null, '1');
+INSERT INTO `sline_sysconfig` VALUES ('120', '0', 'cfg_pc_upgrade', null, '1');
+INSERT INTO `sline_sysconfig` VALUES ('121', '0', 'cfg_mobile_upgrade', null, '1');
+INSERT INTO `sline_sysconfig` VALUES ('122', '0', 'cfg_m_main_url', null, '');
+INSERT INTO `sline_sysconfig` VALUES ('123', '0', 'cfg_m_img_url', null, '');
+INSERT INTO `sline_sysconfig` VALUES ('124', '0', 'cfg_m_phone', null, '');
+INSERT INTO `sline_sysconfig` VALUES ('125', '0', 'cfg_m_icp', null, '');
+INSERT INTO `sline_sysconfig` VALUES ('126', '0', 'cfg_m_tongjicode', null, '');
+
+
+INSERT INTO `sline_tuan_content` VALUES ('1', '0', 'content', '产品介绍', '1', '1', '1', '1');
+INSERT INTO `sline_tuan_content` VALUES ('2', '0', 'tupian', '图片', '0', '1', '0', '0');
+
+INSERT INTO `sline_tuan_kindlist` VALUES ('36', '36', '', '', '', '', '', '0', '2', '1', '0', '0', '');
+INSERT INTO `sline_tuan_kindlist` VALUES ('37', '37', '', '', '', '', '', '0', '3', '1', '0', '0', '');
+
+
+INSERT INTO `sline_visa_content` VALUES ('1', '0', 'content', '签证介绍', '1', '1', '1', '1');
+INSERT INTO `sline_visa_content` VALUES ('2', '0', 'material', '所需材料', '2', '1', '1', '0');
+INSERT INTO `sline_visa_content` VALUES ('3', '0', 'booknotice', '预订须知', '3', '1', '1', '1');
+INSERT INTO `sline_visa_content` VALUES ('4', '0', 'circuit', '办理流程', '4', '1', '1', '1');
+INSERT INTO `sline_visa_content` VALUES ('5', '0', 'friendtip', '温馨提示', '5', '1', '1', '1');
+INSERT INTO `sline_visa_content` VALUES ('6', '0', 'tupian', '图片', '0', '1', '0', '0');
+
+
+
+INSERT INTO `sline_module_list` VALUES ('129', '300', '0', '会员登陆', ' <!--member model-->\n          <div class=\"side-userlogin-box mb15\">\n          	<div class=\"side-userMsg\" id=\"txt1\">\n\n            </div>\n            <div class=\"side-userBtn\" id=\"txt2\">\n\n            </div>\n          </div>\n          <script>\n              $(function(){\n                  var url = \"{$cmsurl}\"+\"member/login/ajax_is_login\";\n                  $.ajax({\n                      type:\"POST\",\n                      url:url,\n                      dataType:\'json\',\n                      success:function(data){\n                          if(data.status){\n\n                             $txt1 =\'<dl>\';\n                             $txt1+=\'<dt><img src=\"\'+data.user.litpic+\'\" /></dt>\';\n                             $txt1+=\'<dd>\';\n                             $txt1+=\'<p class=\"name\"><span>\'+data.user.nickname+\'</span>你好！</p>\';\n                             $txt1+=\'<p class=\"txt\">最近登录&nbsp;&nbsp;\'+data.user.last_logintime+\'</p>\';\n                             $txt1+=\'</dd>\';\n                             $txt1+=\'</dl>\';\n\n                             $txt2 = \'<a class=\"uc-btn\" href=\"/member/\">会员中心</a>\';\n\n                          }else{\n\n                             $txt1 =\'<dl>\';\n                             $txt1+=\'<dt><img src=\"/res/images/user-headimg.png\" /></dt>\';\n                             $txt1+=\'<dd>\';\n                             $txt1+=\'<p class=\"name\">Hi，你好！</p>\';\n                             $txt1+=\'<p class=\"txt\">感谢您的访问</p>\';\n                             $txt1+=\'</dd>\';\n                             $txt1+=\'</dl>\';\n\n                             $txt2 = \'<a class=\"dl-btn\" href=\"/member/login\">立即登录</a>\';\n                             $txt2+= \'<a class=\"zc-btn\" href=\"/member/register\">免费注册</a>\';\n\n\n                          }\n                          $(\"#txt1\").html($txt1);\n                          $(\"#txt2\").html($txt2);\n\n\n                      }\n\n                  })\n\n              })\n          </script>\n         <!--/member model-->', '0', '0', '5');
+INSERT INTO `sline_module_list` VALUES ('130', '301', '0', '在线咨询', ' <!-- question start -->\n          <div class=\"side-onlineZx mb15\">\n          	<h3>在线咨询</h3>\n            <div class=\"onlineZx-list\">\n            	<div class=\"bd\">\n                <ul>\n                  {st:question action=\"query\" row=\"6\" return=\"qlist\"}\n                    {loop $qlist $q}\n                      <li>\n                        <p class=\"bt\">{$q[\'title\']}</p>\n                        <p class=\"txt\">{$q[\'replycontent\']}</p>\n                      </li>\n                    {/loop}\n                  {/st}\n\n                </ul>\n              </div>\n            </div>\n          </div>\n          <script>\n						$(function(){\n							$(\'.side-onlineZx\').slide({mainCell:\".bd ul\",autoPage:true,effect:\"topLoop\",autoPlay:true,vis:3,interTime:5000,delayTime:1000});\n						})\n		  </script>\n         <!-- question end -->', '0', '0', '5');
+INSERT INTO `sline_module_list` VALUES ('131', '302', '0', '最新点评', ' <!-- new comment start -->\n          <div class=\"side-newdp-box mb15\">\n          	<h3>最新点评</h3>\n            <div class=\"newdp-list\">\n            	<div class=\"bd\">\n                <ul>\n                  {st:comment action=\"query\" flag=\"all\" row=\"6\" return=\"clist\"}\n                    {loop $clist $c}\n                      <li>\n                        <p class=\"name\">用户{$c[\'nickname\']} 发表了点评</p>\n                        <p class=\"bt\"><a href=\"javascript:;\">{$c[\'productname\']}</a></p>\n                        <p class=\"txt\">{Common::cutstr_html(strip_tags($c[\'content\']),70)}</p>\n                      </li>\n                    {/loop}\n                  {/st}\n                </ul>\n              </div>\n            </div>\n          </div>\n          <script>\n						$(function(){\n							$(\'.side-newdp-box\').slide({mainCell:\".bd ul\",autoPage:true,effect:\"topLoop\",autoPlay:true,vis:3,interTime:5000,delayTime:1000});\n						})\n					</script>\n         <!-- new comment end -->', '0', '0', '4');
+INSERT INTO `sline_module_list` VALUES ('133', '304', '0', '最新订单', ' <!-- new order start -->\n          <div class=\"side-newbooking-box mb15\">\n          	<h3>最新订单</h3>\n            <div class=\"newbooking-list\">\n            	<div class=\"bd\">\n                <ul>\n                  {st:order action=\"query\" flag=\"all\" row=\"6\" return=\"olist\"}\n                    {loop $olist $o}\n                      <li>\n                        <p class=\"bt\"><a href=\"{$o[\'producturl\']}\" target=\"_blank\">{$o[\'productname\']}</a></p>\n                        <p class=\"bkTime\"><i></i>用户{$o[\'nickname\']} {$o[\'dingtime\']}预订</p>\n                      </li>\n                    {/loop}\n                  {/st}\n                </ul>\n              </div>\n            </div>\n          </div>\n          <script>\n				$(function(){\n					$(\'.side-newbooking-box\').slide({mainCell:\".bd ul\",autoPage:true,effect:\"topLoop\",autoPlay:true,vis:5,interTime:5000,delayTime:1000});\n				})\n		  </script>\n         <!-- new order end -->', '0', '0', '5');
+INSERT INTO `sline_module_list` VALUES ('134', '305', '0', '热卖门票', ' <!--hot ticket start-->\n          <div class=\"side-hot-product mb15\">\n          	<h3>热卖门票</h3>\n            <div class=\"hp-conlist\">\n            	<ul>\n                {st:spot action=\"query\" flag=\"order\" row=\"5\" return=\"slist\"}\n                    {loop $slist $s}\n                          <li>\n                            <div class=\"num-label\">{$n}</div>\n                            <a href=\"{$s[\'url\']}\" target=\"_blank\">\n                                <div class=\"pic\"><img src=\"{Common::img($s[\'litpic\'])}\" alt=\"{$s[\'title\']}\" /></div>\n                            <div class=\"nr\">\n                                <p class=\"bt\">{$s[\'title\']}</p>\n                                {if !empty($s[\'sellnum\'])}\n                                    <p class=\"myd\">销量：{$s[\'sellnum\']}笔</p>\n                                {/if}\n                                {if !empty($s[\'price\'])}\n                                    <p class=\"price\">&yen;{$s[\'price\']}起</p>\n                                {/if}\n                            </div>\n                          </a>\n                            </li>\n                    {/loop}\n                {/st}\n\n              </ul>\n            </div>\n          </div>\n         <!--hot ticket end-->', '0', '0', '5');
+INSERT INTO `sline_module_list` VALUES ('135', '306', '0', '热卖线路', ' <!--hot line start-->\n          <div class=\"side-hot-product mb15\">\n          	<h3>热卖线路</h3>\n            <div class=\"hp-conlist\">\n            	<ul>\n                 {st:line action=\"query\" flag=\"order\" row=\"5\" return=\"llist\"}\n                    {loop $llist $l}\n                    <li>\n                        <div class=\"num-label\">{$n}</div>\n                        <a href=\"{$l[\'url\']}\" target=\"_blank\">\n                            <div class=\"pic\"><img src=\"{Common::img($l[\'litpic\'])}\" alt=\"{$l[\'title\']}\" /></div>\n                        <div class=\"nr\">\n                            <p class=\"bt\">{$l[\'title\']}</p>\n                            <p class=\"price\">\n                                {if !empty($l[\'price\'])}\n                                &yen;{$l[\'price\']}起\n                                {else}\n                                  电询\n                                {/if}\n                            </p>\n                        </div>\n                      </a>\n                    </li>\n                    {/loop}\n                  {/st}\n\n              </ul>\n            </div>\n          </div><!-- 热卖线路 -->\n         <!--hot line end-->', '0', '0', '5');
+INSERT INTO `sline_module_list` VALUES ('136', '307', '0', '热卖酒店', ' <!--hot hotel start-->\n          <div class=\"side-hot-product mb15\">\n          	<h3>热卖酒店</h3>\n            <div class=\"hp-conlist\">\n            	<ul>\n                {st:hotel action=\"query\" flag=\"order\" row=\"5\" return=\"hlist\"}\n                    {loop $hlist $h}\n              	        <li>\n                            <div class=\"num-label\">{$n}</div>\n                            <a href=\"{$h[\'url\']}\" target=\"_blank\">\n                                <div class=\"pic\"><img src=\"{Common::img($h[\'litpic\'])}\" alt=\"{$h[\'title\']}\" /></div>\n                            <div class=\"nr\">\n                                <p class=\"bt\">{$h[\'title\']}</p>\n                              <p class=\"myd\">销量：{$h[\'sellnum\']}笔</p>\n                              <p class=\"price\">\n                                  {if $h[\'price\']}\n                                  &yen;{$h[\'price\']}起\n                                  {else}\n                                  电询\n                                  {/if}\n                              </p>\n                            </div>\n                          </a>\n                         </li>\n                    {/loop}\n                {/st}\n\n              </ul>\n            </div>\n          </div>\n         <!--hot hotel end-->', '0', '0', '5');
+INSERT INTO `sline_module_list` VALUES ('138', '309', '0', '热租车型', ' <!-- hot car start -->\n          <div class=\"side-hot-product mb15\">\n          	<h3>热租车型</h3>\n            <div class=\"hp-conlist\">\n            	<ul>\n                {st:car action=\"query\" flag=\"order\" row=\"5\" return=\"clist\"}\n                    {loop $clist $c}\n              	        <li>\n                            <div class=\"num-label\">{$n}</div>\n                            <a href=\"{$c[\'url\']}\" target=\"_blank\">\n                                <div class=\"pic\"><img src=\"{Common::img($c[\'litpic\'])}\" alt=\"{$c[\'title\']}\" /></div>\n                            <div class=\"nr\">\n                              <p class=\"bt\">{$c[\'title\']}</p>\n                              <p class=\"price\">\n                                  {if $c[\'price\']}\n                                  &yen;{$c[\'price\']}起\n                                  {else}\n                                  电询\n                                  {/if}\n                              </p>\n                            </div>\n                          </a>\n                        </li>\n                    {/loop}\n                {/st}\n\n              </ul>\n            </div>\n          </div>\n         <!-- hot car end -->', '0', '0', '5');
+INSERT INTO `sline_module_list` VALUES ('139', '310', '0', '热门景点', ' <!--hot spot start-->\n          <div class=\"side-hot-product mb15\">\n          	<h3>热门景点</h3>\n            <div class=\"hp-conlist\">\n            	<ul>\n                {st:spot action=\"query\" flag=\"order\" row=\"5\" return=\"spotlist\"}\n                    {loop $spotlist $sp}\n                        <li>\n                            <div class=\"num-label\">{$n}</div>\n                            <a href=\"{$sp[\'url\']}\" target=\"_blank\">\n                            <div class=\"nr\">\n                                <p class=\"bt\">{$sp[\'title\']}</p>\n\n                            </div>\n                          </a>\n                        </li>\n                    {/loop}\n                {/st}\n              </ul>\n            </div>\n          </div>\n          \n          <script>\n						$(function(){\n							$(\'.hp-conlist\').each(function() {\n                $(this).find(\'li\').eq(0).addClass(\'hover\')\n              });\n							$(\'.hp-conlist li\').mouseover(function(){\n								$(this).addClass(\'hover\').siblings().removeClass(\'hover\')\n							})\n						})\n					</script>\n         <!--hot spot end-->', '0', '0', '5');
+INSERT INTO `sline_module_list` VALUES ('140', '311', '0', '相关攻略', ' <!--relative raider start-->\n          <div class=\"side-other-box mb15\">\n          	<h3>相关攻略</h3>\n            <div class=\"other-con\">\n            	<ul class=\"xggl-conlist\">\n                {st:article action=\"query\" flag=\"relative\" destid=\"$destid\" row=\"5\" return=\"alist\"}\n                    {loop $alist $a}\n                        <li>\n                            <a href=\"{$a[\'url\']}\" target=\"_blank\">\n                            <div class=\"pic\"><img src=\"{Common::img($a[\'litpic\'])}\" alt=\"{$a[\'title\']}\" /></div>\n                            <div class=\"txt\">{$a[\'title\']}</div>\n                          </a>\n                        </li>\n                    {/loop}\n              	{/st}\n              </ul>\n            </div>\n          </div><!-- 相关攻略 -->\n          <!--relative raider end-->\n', '0', '0', '5');
+INSERT INTO `sline_module_list` VALUES ('141', '312', '0', '最新攻略', ' <!--new raider start-->\n          <div class=\"side-other-box mb15\">\n          	<h3>最新攻略</h3>\n            <div class=\"other-con\">\n            	<ul class=\"newyj-conlist\">\n                {st:article action=\"query\" flag=\"new\"  row=\"5\" return=\"alist\"}\n                    {loop $alist $a}\n              	     <li>\n                        <a href=\"{$a[\'url\']}\" target=\"_blank\">\n                        <div class=\"pic\"><img src=\"{Common::img($a[\'litpic\'])}\" alt=\"{$a[\'title\']}\" /></div>\n                        <div class=\"bt\">{$a[\'title\']}</div>\n                        <div class=\"data\">\n                          <span class=\"name\">{$a[\'author\']}</span>\n                          <span class=\"rq\">{Common::mydate(\'Y-m-d\',$a[\'addtime\'])}</span>\n                        </div>\n                      </a>\n                     </li>\n                    {/loop}\n\n              </ul>\n            </div>\n          </div>\n         <!--new raider end-->\n', '0', '0', '5');
+INSERT INTO `sline_module_list` VALUES ('142', '313', '0', '最新团购', ' <!--new tuan start-->\n         {Common::js(\'tuan.js\')}\n          <div class=\"side-other-box\">\n          	<h3>推荐团购</h3>\n            <div class=\"other-con\">\n            	<ul class=\"tjtg-conlist\">\n                 {st:tuan action=\"query\" flag=\"new\" row=\"6\" return=\"tlist\"}\n                    {loop $tlist $t}\n                        <li>\n                          <i>{$t[\'discount\']}</i>\n                          <a href=\"{$t[\'url\']}\" target=\"_blank\">\n                            <div class=\"pic\"><img src=\"{Common::img($t[\'litpic\'])}\" alt=\"{$t[\'title\']}\" /></div>\n                            <p class=\"time ticktime\">21天08时27分47</p>\n                            <p class=\"txt\">{$t[\'title\']}</p>\n                            <p class=\"price\">\n                              <span>&yen;<b>{$t[\'price\']}</b></span>\n                              <del>&yen;{$t[\'sellprice\']}</del>\n                            </p>\n                            <p class=\"num\">{$t[\'bookcount\']}人已购</p>\n                          </a>\n                        </li>\n                    {/loop}\n                 {/st}\n\n\n              </ul>\n            </div>\n          </div>\n         <script>\n             $(function(){\n                 $(\'.ticktime\').each(function(i,obj){\n                     Tuan.tickTimeEle(obj);\n                 })\n             })\n         </script>\n         <!--new tuan end-->', '0', '0', '5');
+
+
+INSERT INTO `sline_email_msg` VALUES ('1', 'reg', '恭喜您注册成功为{#WEBNAME#}会员，帐号：{#LOGINNAME#}密码：{#PASSWORD#}，您也可通过手机为帐号登陆网站。', '0');
+INSERT INTO `sline_email_msg` VALUES ('2', 'line_order_msg1', '尊敬的会员{#MEMBERNAME#}:您预订的{#PRODUCTNAME#}产品,我们将于30分钟内尽快确认您的预订.', '0');
+INSERT INTO `sline_email_msg` VALUES ('3', 'line_order_msg2', '尊敬的会员{#MEMBERNAME#}:您预订的{#PRODUCTNAME#}产品 数量:{#NUMBER#},总价格:{#TOTALPRICE#}已经提交成功,请你尽快进行支付.', '1');
+INSERT INTO `sline_email_msg` VALUES ('4', 'line_order_msg3', '尊敬的会员{#MEMBERNAME#}:您已成功预订{#PRODUCTNAME#}产品 数量{#NUMBER#},请凭{#WEBNAME#}提示短信前住消费.', '0');
+INSERT INTO `sline_email_msg` VALUES ('5', 'line_order_msg4', '尊敬的会员{#MEMBERNAME#}:您已预订{#PRODUCTNAME#}产品因系统原因被取消.', '0');
+INSERT INTO `sline_email_msg` VALUES ('6', 'hotel_order_msg1', '尊敬的会员{#MEMBERNAME#}:您预订的{#PRODUCTNAME#}产品,我们将于30分钟内尽快确认您的预订.', '0');
+INSERT INTO `sline_email_msg` VALUES ('7', 'hotel_order_msg2', '尊敬的会员{#MEMBERNAME#}:您预订的{#PRODUCTNAME#}产品 数量:{#NUMBER#},总价格:{#TOTALPRICE#}已经提交成功,请你尽快进行支付.', '0');
+INSERT INTO `sline_email_msg` VALUES ('8', 'hotel_order_msg3', '尊敬的会员{#MEMBERNAME#}:您已成功预订{#PRODUCTNAME#}产品 数量{#NUMBER#},请凭{#WEBNAME#}提示短信前住消费.', '0');
+INSERT INTO `sline_email_msg` VALUES ('9', 'hotel_order_msg4', '尊敬的会员{#MEMBERNAME#}:您已预订{#PRODUCTNAME#}产品因系统原因被取消.', '0');
+INSERT INTO `sline_email_msg` VALUES ('10', 'car_order_msg1', '尊敬的会员{#MEMBERNAME#}:您预订的{#PRODUCTNAME#}产品,我们将于30分钟内尽快确认您的预订.', '0');
+INSERT INTO `sline_email_msg` VALUES ('11', 'car_order_msg2', '尊敬的会员{#MEMBERNAME#}:您预订的{#PRODUCTNAME#}产品 数量:{#NUMBER#},总价格:{#TOTALPRICE#}已经提交成功,请你尽快进行支付.', '0');
+INSERT INTO `sline_email_msg` VALUES ('12', 'car_order_msg3', '尊敬的会员{#MEMBERNAME#}:您已成功预订{#PRODUCTNAME#}产品 数量{#NUMBER#},请凭{#WEBNAME#}提示短信前住消费.', '0');
+INSERT INTO `sline_email_msg` VALUES ('13', 'car_order_msg4', '尊敬的会员{#MEMBERNAME#}:您已预订{#PRODUCTNAME#}产品因系统原因被取消.', '0');
+INSERT INTO `sline_email_msg` VALUES ('14', 'spot_order_msg1', '尊敬的会员{#MEMBERNAME#}:您预订的{#PRODUCTNAME#}产品,我们将于30分钟内尽快确认您的预订.', '0');
+INSERT INTO `sline_email_msg` VALUES ('15', 'spot_order_msg2', '尊敬的会员{#MEMBERNAME#}:您预订的{#PRODUCTNAME#}产品 数量:{#NUMBER#},总价格:{#TOTALPRICE#}已经提交成功,请你尽快进行支付.', '0');
+INSERT INTO `sline_email_msg` VALUES ('16', 'spot_order_msg3', '尊敬的会员{#MEMBERNAME#}:您已成功预订{#PRODUCTNAME#}产品 数量{#NUMBER#},请凭{#WEBNAME#}提示短信前住消费.', '0');
+INSERT INTO `sline_email_msg` VALUES ('17', 'spot_order_msg4', '尊敬的会员{#MEMBERNAME#}:您已预订{#PRODUCTNAME#}产品因系统原因被取消.', '0');
+INSERT INTO `sline_email_msg` VALUES ('18', 'visa_order_msg1', '尊敬的会员{#MEMBERNAME#}:您预订的{#PRODUCTNAME#}产品,我们将于30分钟内尽快确认您的预订.', '0');
+INSERT INTO `sline_email_msg` VALUES ('19', 'visa_order_msg2', '尊敬的会员{#MEMBERNAME#}:您预订的{#PRODUCTNAME#}产品 数量:{#NUMBER#},总价格:{#TOTALPRICE#}已经提交成功,请你尽快进行支付.', '0');
+INSERT INTO `sline_email_msg` VALUES ('20', 'visa_order_msg3', '尊敬的会员{#MEMBERNAME#}:您已成功预订{#PRODUCTNAME#}产品 数量{#NUMBER#},请凭{#WEBNAME#}提示短信前住消费.', '0');
+INSERT INTO `sline_email_msg` VALUES ('21', 'visa_order_msg4', '尊敬的会员{#MEMBERNAME#}:您已预订{#PRODUCTNAME#}产品因系统原因被取消.', '0');
+INSERT INTO `sline_email_msg` VALUES ('22', 'tuan_order_msg1', '尊敬的会员{#MEMBERNAME#}:您预订的{#PRODUCTNAME#}产品,我们将于30分钟内尽快确认您的预订.', '0');
+INSERT INTO `sline_email_msg` VALUES ('23', 'tuan_order_msg2', '尊敬的会员{#MEMBERNAME#}:您预订的{#PRODUCTNAME#}产品 数量:{#NUMBER#},总价格:{#TOTALPRICE#}已经提交成功,请你尽快进行支付.', '0');
+INSERT INTO `sline_email_msg` VALUES ('24', 'tuan_order_msg3', '尊敬的会员{#MEMBERNAME#}:您已成功预订{#PRODUCTNAME#}产品 数量{#NUMBER#},请凭{#WEBNAME#}提示短信前住消费.', '0');
+INSERT INTO `sline_email_msg` VALUES ('25', 'tuan_order_msg4', '尊敬的会员{#MEMBERNAME#}:您已预订{#PRODUCTNAME#}产品因系统原因被取消.', '0');
+INSERT INTO `sline_email_msg` VALUES ('26', 'reg_msgcode', '尊敬的会员,请您在{#WEBNAME#}中输入以下验证码:{#CODE#},完成用户注册.', '0');
+INSERT INTO `sline_email_msg` VALUES ('27', 'reg_findpwd', '尊敬的会员,请您在{#WEBNAME#}中输入以下验证码:{#CODE#},完成密码找回验证.', '0');
+
+INSERT INTO `sline_advertise_5x` (`id`, `webid`, `flag`, `custom_label`, `kindlist`, `adsrc`, `adlink`, `adname`, `adorder`, `is_system`, `is_show`, `is_pc`, `prefix`, `number`, `modtime`, `remark`) VALUES
+(1, 0, '1', 'HeaderAd', '', 'a:1:{i:0;s:55:"/uploads/2016/0304/bc333b57e8e6e2ee92c461abd027da0d.png";}', 'a:1:{i:0;s:0:"";}', 'a:1:{i:0;s:0:"";}', 'a:1:{i:0;s:0:"";}', '1', '1', '1', 'index', 1, '2016-03-04 19:49:32', '网站首页-顶部通栏\n1920*80'),
+(2, 0, '2', 'IndexRollingAd', '', 'a:2:{i:0;s:55:"/uploads/2015/1008/f245ee13fb851d44e9870bf9044553e2.jpg";i:1;s:55:"/uploads/2015/1008/87f2d0193b673867f17063038c806945.jpg";}', 'a:2:{i:0;s:0:"";i:1;s:0:"";}', 'a:2:{i:0;s:0:"";i:1;s:0:"";}', 'a:2:{i:0;s:0:"";i:1;s:0:"";}', '1', '1', '1', 'index', 2, '2016-03-04 13:55:57', '网站首页-主导航下部通栏大图\n1920*420'),
+(3, 0, '1', 'Header_Usernav_1', NULL, '', '', '', '', '1', '1', '1', 'index', 3, '2016-02-03 13:45:26', '网站首页-自定义菜单页签右侧1980*100'),
+(4, 0, '1', 'Header_Usernav_2', NULL, '', '', '', '', '1', '1', '1', 'index', 4, '2016-02-03 13:45:26', '网站首页-自定义菜单页签右侧2980*100'),
+(5, 0, '1', 'Header_Usernav_3', NULL, '', '', '', '', '1', '1', '1', 'index', 5, '2016-02-03 13:45:26', '网站首页-自定义菜单页签右侧3980*100'),
+(6, 0, '1', 'Header_Usernav_4', NULL, '', '', '', '', '1', '1', '1', 'index', 6, '2016-02-03 13:45:26', '网站首页-自定义菜单页签右侧4980*100'),
+(7, 0, '1', 'Header_Usernav_5', NULL, '', '', '', '', '1', '1', '1', 'index', 7, '2016-02-03 13:45:26', '网站首页-自定义菜单页签右侧5980*100'),
+(8, 0, '1', 'Header_Usernav_6', NULL, '', '', '', '', '1', '1', '1', 'index', 8, '2016-02-03 13:45:26', '网站首页-自定义菜单页签右侧6980*100'),
+(9, 0, '1', 'IndexLineAd1', '', 'a:1:{i:0;s:55:"/uploads/2015/1008/be2fbaa0771ca8f8d5319a57f0c4e285.jpg";}', 'a:1:{i:0;s:0:"";}', 'a:1:{i:0;s:0:"";}', 'a:1:{i:0;s:0:"";}', '1', '1', '1', 'index', 9, '2016-03-04 14:30:10', '网站首页-线路右侧竖型\n285*622'),
+(10, 0, '1', 'IndexLineAd2', '', 'a:1:{i:0;s:55:"/uploads/2016/0304/2512db3204776681e4ff5a3e03c0b581.jpg";}', 'a:1:{i:0;s:0:"";}', 'a:1:{i:0;s:0:"";}', 'a:1:{i:0;s:0:"";}', '1', '1', '1', 'index', 10, '2016-03-04 14:53:06', '网站首页-线路下侧通栏\n1200*100'),
+(11, 0, '1', 'IndexHotelAd1', '', 'a:1:{i:0;s:55:"/uploads/2015/1008/c7f748d47175fe1283a6aecec7f59368.jpg";}', 'a:1:{i:0;s:0:"";}', 'a:1:{i:0;s:0:"";}', 'a:1:{i:0;s:0:"";}', '1', '1', '1', 'index', 11, '2016-03-04 14:30:49', '网站首页-酒店右侧竖型\n285*570'),
+(12, 0, '1', 'IndexHotelAd2', '', 'a:1:{i:0;s:55:"/uploads/2016/0304/2512db3204776681e4ff5a3e03c0b581.jpg";}', 'a:1:{i:0;s:0:"";}', 'a:1:{i:0;s:0:"";}', 'a:1:{i:0;s:0:"";}', '1', '1', '1', 'index', 12, '2016-03-04 14:53:27', '网站首页-酒店下侧通栏\n1200*100'),
+(13, 0, '1', 'IndexSpotAd1', '', 'a:1:{i:0;s:55:"/uploads/2015/1008/6373b488fa2a3778e1484ee49ceea17b.jpg";}', 'a:1:{i:0;s:0:"";}', 'a:1:{i:0;s:0:"";}', 'a:1:{i:0;s:0:"";}', '1', '1', '1', 'index', 13, '2016-03-04 14:31:38', '网站首页-门票右侧竖型\n285*570'),
+(14, 0, '1', 'IndexSpotAd2', '', 'a:1:{i:0;s:55:"/uploads/2016/0304/2512db3204776681e4ff5a3e03c0b581.jpg";}', 'a:1:{i:0;s:0:"";}', 'a:1:{i:0;s:0:"";}', 'a:1:{i:0;s:0:"";}', '1', '1', '1', 'index', 14, '2016-03-04 14:53:58', '网站首页-门票下侧通栏\n1200*100'),
+(15, 0, '1', 'IndexTuanAd1', '', 'a:1:{i:0;s:55:"/uploads/2016/0304/2512db3204776681e4ff5a3e03c0b581.jpg";}', 'a:1:{i:0;s:0:"";}', 'a:1:{i:0;s:0:"";}', 'a:1:{i:0;s:0:"";}', '1', '1', '1', 'index', 15, '2016-03-04 14:54:35', '网站首页-团购下侧通栏\n1200*100'),
+(16, 0, '1', 'IndexCarAd1', '', 'a:1:{i:0;s:55:"/uploads/2016/0304/2512db3204776681e4ff5a3e03c0b581.jpg";}', 'a:1:{i:0;s:0:"";}', 'a:1:{i:0;s:0:"";}', 'a:1:{i:0;s:0:"";}', '1', '1', '1', 'index', 16, '2016-03-04 14:54:50', '网站首页-租车下侧通栏\n1200*100'),
+(17, 0, '1', 'IndexVisaAd1', '', 'a:1:{i:0;s:55:"/uploads/2016/0304/2512db3204776681e4ff5a3e03c0b581.jpg";}', 'a:1:{i:0;s:0:"";}', 'a:1:{i:0;s:0:"";}', 'a:1:{i:0;s:0:"";}', '1', '1', '1', 'index', 17, '2016-03-04 14:55:03', '网站首页-签证下侧通栏\n1200*100'),
+(18, 0, '1', 'IndexArticleAd1', '', 'a:1:{i:0;s:55:"/uploads/2016/0304/2512db3204776681e4ff5a3e03c0b581.jpg";}', 'a:1:{i:0;s:0:"";}', 'a:1:{i:0;s:0:"";}', 'a:1:{i:0;s:0:"";}', '1', '1', '1', 'index', 18, '2016-03-04 14:55:29', '网站首页-攻略下侧通栏\n1200*100'),
+(19, 0, '2', 'LineRollingAd', NULL, '', '', '', '', '1', '1', '1', 'line_index', 1, '2016-02-03 13:45:26', '线路栏目首页-线路导航右侧\n858*324'),
+(20, 0, '1', 'LineIndex_LeftAd1', NULL, '', '', '', '', '1', '1', '1', 'line_index', 2, '2016-02-03 13:45:26', '线路栏目首页-目的地左侧竖型1\n622*285'),
+(21, 0, '1', 'LineIndex_BottomAd1', NULL, '', '', '', '', '1', '1', '1', 'line_index', 3, '2016-02-03 13:45:26', '线路栏目首页-目的地下侧通栏1\n1200*100'),
+(22, 0, '1', 'LineIndex_LeftAd2', NULL, '', '', '', '', '1', '1', '1', 'line_index', 4, '2016-02-03 13:45:26', '线路栏目首页-目的地左侧竖型2\n622*285'),
+(23, 0, '1', 'LineIndex_BottomAd2', NULL, '', '', '', '', '1', '1', '1', 'line_index', 5, '2016-02-03 13:45:26', '线路栏目首页-目的地下侧通栏2\n1200*100'),
+(24, 0, '1', 'LineIndex_LeftAd3', NULL, '', '', '', '', '1', '1', '1', 'line_index', 6, '2016-02-03 13:45:26', '线路栏目首页-目的地左侧竖型3\n622*285'),
+(25, 0, '1', 'LineIndex_BottomAd3', NULL, '', '', '', '', '1', '1', '1', 'line_index', 7, '2016-02-03 13:45:26', '线路栏目首页-目的地下侧通栏3\n1200*100'),
+(26, 0, '1', 'LineIndex_LeftAd4', NULL, '', '', '', '', '1', '1', '1', 'line_index', 8, '2016-02-03 13:45:26', '线路栏目首页-目的地左侧竖型4\n622*285'),
+(27, 0, '1', 'LineIndex_BottomAd4', NULL, '', '', '', '', '1', '1', '1', 'line_index', 9, '2016-02-03 13:45:26', '线路栏目首页-目的地下侧通栏4\n1200*100'),
+(28, 0, '1', 'LineIndex_LeftAd5', NULL, '', '', '', '', '1', '1', '1', 'line_index', 10, '2016-02-03 13:45:26', '线路栏目首页-目的地左侧竖型5\n622*285'),
+(29, 0, '1', 'LineIndex_BottomAd5', NULL, '', '', '', '', '1', '1', '1', 'line_index', 11, '2016-02-03 13:45:26', '线路栏目首页-目的地下侧通栏5\n1200*100'),
+(30, 0, '1', 'LineIndex_LeftAd6', NULL, '', '', '', '', '1', '1', '1', 'line_index', 12, '2016-02-03 13:45:26', '线路栏目首页-目的地左侧竖型6\n622*285'),
+(31, 0, '1', 'LineIndex_BottomAd6', NULL, '', '', '', '', '1', '1', '1', 'line_index', 13, '2016-02-03 13:45:26', '线路栏目首页-目的地下侧通栏6\n1200*100'),
+(32, 0, '2', 'HotelRollingAd', NULL, '', '', '', '', '1', '1', '1', 'hotel_index', 1, '2016-02-03 13:45:26', '酒店栏目首页-搜索右侧\n858*324'),
+(33, 0, '2', 'CarRollingAd', '', '', '', '', '', '1', '1', '1', 'car_index', 1, '2016-02-03 13:45:26', '租车栏目首页-搜索右侧\n815*320'),
+(34, 0, '2', 'SpotRollingAd', '', '', '', '', '', '1', '1', '1', 'menpiao_index', 1, '2016-02-03 13:45:26', '景点门票-主导航下部通栏\n1200*360'),
+(35, 0, '2', 'ArticleRollingAd', NULL, '', '', '', '', '1', '1', '1', 'article_index', 1, '2016-02-03 13:45:26', '攻略栏目首页-主导航下部通栏\n815*320'),
+(36, 0, '2', 'TuanRollingAd', '', 'a:1:{i:0;s:55:"/uploads/2016/0308/1bc4c0a72da6b0c3e3612f107d481f83.jpg";}', 'a:1:{i:0;s:0:"";}', 'a:1:{i:0;s:0:"";}', 'a:1:{i:0;s:0:"";}', '1', '1', '1', 'tuan_index', 1, '2016-03-08 17:22:03', '团购栏目首页-主导航下部通栏\n1200*360'),
+(37, 0, '2', 'Index2RollingAd', NULL, '', '', '', '', '1', '1', '1', 'index', 19, '2016-02-03 13:45:26', '首页效果2-导航下方通栏广告\n1920*320'),
+(38, 0, '1', 'Index2LineRightAd', NULL, '', '', '', '', '1', '1', '1', 'index', 20, '2016-02-03 13:45:26', '首页效果2-线路右侧广告\n247*400'),
+(39, 0, '1', 'Index2HotelRightAd', NULL, '', '', '', '', '1', '1', '1', 'index', 21, '2016-02-03 13:45:26', '首页效果2-酒店右侧广告\n247*400'),
+(40, 0, '1', 'Index2SpotRightAd', '', '', '', '', '', '1', '1', '1', 'index', 22, '2016-02-03 13:45:26', '首页效果2-景点右侧广告\n247*400'),
+(41, 0, '1', 'Index2CarRightAd', NULL, '', '', '', '', '1', '1', '1', 'index', 23, '2016-02-03 13:45:26', '首页效果2-租车右侧广告\n247*400'),
+(42, 0, '1', 'Index2TuanRightAd', NULL, '', '', '', '', '1', '1', '1', 'index', 24, '2016-02-03 13:45:26', '首页效果2-团购右侧广告\n247*400'),
+(43, 0, '2', 'Index3RollingAd', NULL, '', '', '', '', '1', '1', '1', 'index', 25, '2016-02-03 13:45:26', '首页效果3-导航下方通栏广告\n1920*320'),
+(44, 0, '1', 'Index3LineRightAd', '', '', '', '', '', '1', '1', '1', 'index', 26, '2016-02-03 13:45:26', '首页效果3-线路右侧广告\n247*490'),
+(45, 0, '1', 'Index3HotelRightAd', '', '', '', '', '', '1', '1', '1', 'index', 27, '2016-02-03 13:45:26', '首页效果3-酒店右侧广告\n247*490'),
+(46, 0, '1', 'Index3SpotRightAd', NULL, '', '', '', '', '1', '1', '1', 'index', 28, '2016-02-03 13:45:26', '首页效果3-景点右侧广告\n247*490'),
+(47, 0, '1', 'Index3CarRightAd', NULL, '', '', '', '', '1', '1', '1', 'index', 29, '2016-02-03 13:45:26', '首页效果3-租车右侧广告\n247*190'),
+(48, 0, '1', 'Index3TuanRightAd', NULL, '', '', '', '', '1', '1', '1', 'index', 30, '2016-02-03 13:45:26', '首页效果3-团购右侧广告\n247*190'),
+(49, 0, '1', 'zt_line_ad', '', '', '', '', '', '1', '1', '1', 'zhuanti_show', 1, '2016-02-03 13:45:26', '专题页-线路广告\n229*573'),
+(50, 0, '1', 'zt_hotel_ad', '', '', '', '', '', '1', '1', '1', 'zhuanti_show', 2, '2016-02-03 13:45:26', '专题页-酒店广告\n229*573'),
+(51, 0, '1', 'zt_car_ad', '', '', '', '', '', '1', '1', '1', 'zhuanti_show', 3, '2016-02-03 13:45:26', '专题页-租车广告\n229*573'),
+(52, 0, '1', 'zt_spot_ad', '', '', '', '', '', '1', '1', '1', 'zhuanti_show', 4, '2016-02-03 13:45:26', '专题页-门票广告\n229*573'),
+(53, 0, '2', NULL, NULL, 'a:3:{i:0;s:55:"/uploads/2015/1015/96af8fa76b236daa423a56026c42e839.jpg";i:1;s:55:"/uploads/2015/1015/3906ef7b9392d186767bc9580712fd1f.jpg";i:2;s:55:"/uploads/2015/1015/47f9680151fd57cb8776281671497b09.jpg";}', 'a:3:{i:0;s:0:"";i:1;s:0:"";i:2;s:0:"";}', 'a:3:{i:0;s:0:"";i:1;s:0:"";i:2;s:0:"";}', '0', '1', '1', '0', 'index', 1, '2015-10-21 15:02:43', '尺寸：640*300'),
+(54, 0, '2', NULL, NULL, 'a:1:{i:0;s:55:"/uploads/2015/1015/6e2e4018f05ad81710b56b3712df9287.jpg";}', 'a:1:{i:0;s:0:"";}', 'a:1:{i:0;s:0:"";}', '0', '1', '1', '0', 'index', 2, '2015-10-21 15:05:10', '尺寸：319*213'),
+(55, 0, '1', NULL, NULL, 'a:1:{i:0;s:55:"/uploads/2015/1015/d7066ccce480a7455199fdd10f67ccfb.jpg";}', 'a:1:{i:0;s:0:"";}', 'a:1:{i:0;s:0:"";}', '0', '1', '1', '0', 'index', 3, '2015-10-21 15:06:09', '尺寸：319*130'),
+(56, 0, '1', NULL, NULL, 'a:1:{i:0;s:55:"/uploads/2015/1015/e25f15b36544bbad9b268960757e98b6.jpg";}', 'a:1:{i:0;s:0:"";}', 'a:1:{i:0;s:0:"";}', '0', '1', '1', '0', 'index', 4, '2015-10-21 15:08:47', '尺寸：319*130'),
+(57, 0, '2', NULL, NULL, 'a:2:{i:0;s:55:"/uploads/2015/1015/96af8fa76b236daa423a56026c42e839.jpg";i:1;s:55:"/uploads/2015/1015/47f9680151fd57cb8776281671497b09.jpg";}', 'a:2:{i:0;s:0:"";i:1;s:0:"";}', 'a:2:{i:0;s:0:"";i:1;s:0:"";}', '0', '1', '1', '0', 'car_index', 1, '2015-10-21 15:30:09', ''),
+(58, 0, '1', NULL, NULL, 'a:1:{i:0;s:55:"/uploads/2015/1015/3906ef7b9392d186767bc9580712fd1f.jpg";}', 'a:1:{i:0;s:0:"";}', 'a:1:{i:0;s:0:"";}', '0', '1', '1', '0', 'dest_index', 1, '2015-10-21 15:34:24', ''),
+(59, 0, '2', NULL, NULL, 'a:2:{i:0;s:55:"/uploads/2015/1015/bd1785a6799440945944b3a45aa56cda.jpg";i:1;s:55:"/uploads/2015/1015/47f9680151fd57cb8776281671497b09.jpg";}', 'a:2:{i:0;s:0:"";i:1;s:0:"";}', 'a:2:{i:0;s:0:"";i:1;s:0:"";}', '0', '1', '1', '0', 'hotel_index', 1, '2015-10-21 15:36:03', ''),
+(60, 0, '2', NULL, NULL, 'a:2:{i:0;s:55:"/uploads/2015/1015/3906ef7b9392d186767bc9580712fd1f.jpg";i:1;s:55:"/uploads/2015/1015/47f9680151fd57cb8776281671497b09.jpg";}', 'a:2:{i:0;s:0:"";i:1;s:0:"";}', 'a:2:{i:0;s:0:"";i:1;s:0:"";}', '0', '1', '1', '0', 'line_index', 1, '2015-10-21 15:39:00', ''),
+(61, 0, '1', NULL, NULL, 'a:3:{i:0;s:55:"/uploads/2015/1015/2280c119c1236aed4c4176649df80531.jpg";i:1;s:55:"/uploads/2015/1015/97134ebc2a6b18dfcd2838f6836e1737.jpg";i:2;s:55:"/uploads/2015/1015/96af8fa76b236daa423a56026c42e839.jpg";}', 'a:3:{i:0;s:0:"";i:1;s:0:"";i:2;s:0:"";}', 'a:3:{i:0;s:0:"";i:1;s:0:"";i:2;s:0:"";}', '0', '1', '1', '0', 'spot_index', 1, '2015-10-21 15:40:50', ''),
+(62, 0, '2', NULL, NULL, 'a:2:{i:0;s:55:"/uploads/2015/1015/3906ef7b9392d186767bc9580712fd1f.jpg";i:1;s:55:"/uploads/2015/1015/47f9680151fd57cb8776281671497b09.jpg";}', 'a:2:{i:0;s:0:"";i:1;s:0:"";}', 'a:2:{i:0;s:0:"";i:1;s:0:"";}', '0', '1', '1', '0', 'tuan_index', 1, '2015-10-21 15:42:20', ''),
+(63, 0, '1', NULL, NULL, 'a:1:{i:0;s:55:"/uploads/2015/1015/47f9680151fd57cb8776281671497b09.jpg";}', 'a:1:{i:0;s:0:"";}', 'a:1:{i:0;s:0:"";}', '0', '1', '1', '0', 'visa_index', 1, '2015-10-21 15:43:51', ''),
+(64, 0, '2', NULL, NULL, 'a:2:{i:0;s:55:"/uploads/2015/1015/96af8fa76b236daa423a56026c42e839.jpg";i:1;s:55:"/uploads/2015/1015/bd1785a6799440945944b3a45aa56cda.jpg";}', 'a:2:{i:0;s:0:"";i:1;s:0:"";}', 'a:2:{i:0;s:0:"";i:1;s:0:"";}', '0', '1', '1', '0', 'article_index', 1, '2015-10-21 15:47:50', ''),
+(65, 0, '1', NULL, NULL, 'a:1:{i:0;s:55:"/uploads/2015/1015/3906ef7b9392d186767bc9580712fd1f.jpg";}', 'a:1:{i:0;s:0:"";}', 'a:1:{i:0;s:0:"";}', '0', '0', '1', '0', 'index', 1, '2015-10-21 18:00:00', '');
+
+INSERT INTO `sline_module_config` (`id`,`webid`,`aid`,`pagename`,`shortname`,`typeid`,`moduleids`) VALUES (1,0,1,'栏目首页','index',1,'4,6,20,10');
+INSERT INTO `sline_module_config` (`id`,`webid`,`aid`,`pagename`,`shortname`,`typeid`,`moduleids`) VALUES (2,0,2,'栏目详细页','show',1,'15,11,8,25,1,9,19');
+INSERT INTO `sline_module_config` (`id`,`webid`,`aid`,`pagename`,`shortname`,`typeid`,`moduleids`) VALUES (3,0,3,'栏目搜索页','search',1,'11,8,9,6,25');
+INSERT INTO `sline_module_config` (`id`,`webid`,`aid`,`pagename`,`shortname`,`typeid`,`moduleids`) VALUES (5,0,5,'栏目首页','index',2,'6,11,,8,9,4');
+INSERT INTO `sline_module_config` (`id`,`webid`,`aid`,`pagename`,`shortname`,`typeid`,`moduleids`) VALUES (6,0,6,'栏目详细页','show',2,'1,11,8,4');
+INSERT INTO `sline_module_config` (`id`,`webid`,`aid`,`pagename`,`shortname`,`typeid`,`moduleids`) VALUES (7,0,7,'栏目搜索页','search',2,'11,8,9,6');
+INSERT INTO `sline_module_config` (`id`,`webid`,`aid`,`pagename`,`shortname`,`typeid`,`moduleids`) VALUES (9,0,9,'栏目首页','index',3,'6,11,8,9,4');
+INSERT INTO `sline_module_config` (`id`,`webid`,`aid`,`pagename`,`shortname`,`typeid`,`moduleids`) VALUES (10,0,10,'栏目详细页','show',3,'3,1,11,8,2,4');
+INSERT INTO `sline_module_config` (`id`,`webid`,`aid`,`pagename`,`shortname`,`typeid`,`moduleids`) VALUES (11,0,11,'栏目搜索页','search',3,'6,11,8,9,4');
+INSERT INTO `sline_module_config` (`id`,`webid`,`aid`,`pagename`,`shortname`,`typeid`,`moduleids`) VALUES (13,0,13,'栏目首页','index',4,'6,11,8,4');
+INSERT INTO `sline_module_config` (`id`,`webid`,`aid`,`pagename`,`shortname`,`typeid`,`moduleids`) VALUES (14,0,14,'栏目详细页','show',4,'6,11,1,2,4');
+INSERT INTO `sline_module_config` (`id`,`webid`,`aid`,`pagename`,`shortname`,`typeid`,`moduleids`) VALUES (15,0,15,'栏目搜索页','search',4,'6,11,8,4');
+INSERT INTO `sline_module_config` (`id`,`webid`,`aid`,`pagename`,`shortname`,`typeid`,`moduleids`) VALUES (16,0,17,'栏目首页','index',5,'6,11,8,4');
+INSERT INTO `sline_module_config` (`id`,`webid`,`aid`,`pagename`,`shortname`,`typeid`,`moduleids`) VALUES (17,0,18,'栏目详细页','show',5,'5,11,8,4');
+INSERT INTO `sline_module_config` (`id`,`webid`,`aid`,`pagename`,`shortname`,`typeid`,`moduleids`) VALUES (18,0,19,'栏目搜索页','search',5,'6,11,8,4');
+INSERT INTO `sline_module_config` (`id`,`webid`,`aid`,`pagename`,`shortname`,`typeid`,`moduleids`) VALUES (19,0,21,'栏目首页','index',6,'1,8,11,4');
+INSERT INTO `sline_module_config` (`id`,`webid`,`aid`,`pagename`,`shortname`,`typeid`,`moduleids`) VALUES (20,0,22,'栏目详细页','show',6,'1,3,11,2');
+INSERT INTO `sline_module_config` (`id`,`webid`,`aid`,`pagename`,`shortname`,`typeid`,`moduleids`) VALUES (21,0,23,'栏目搜索页','search',6,'1,8,11,4');
+INSERT INTO `sline_module_config` (`id`,`webid`,`aid`,`pagename`,`shortname`,`typeid`,`moduleids`) VALUES (24,0,27,'网站首页','index',0,'9,3,14,10');
+INSERT INTO `sline_module_config` (`id`,`webid`,`aid`,`pagename`,`shortname`,`typeid`,`moduleids`) VALUES (25,0,28,'栏目首页','index',8,'20,6,9,10');
+INSERT INTO `sline_module_config` (`id`,`webid`,`aid`,`pagename`,`shortname`,`typeid`,`moduleids`) VALUES (26,0,29,'栏目详细页','show',8,'1,11,8,9,3,2');
+INSERT INTO `sline_module_config` (`id`,`webid`,`aid`,`pagename`,`shortname`,`typeid`,`moduleids`) VALUES (27,0,30,'栏目搜索页','search',8,'6,11,8,9,4');
+INSERT INTO `sline_module_config` (`id`,`webid`,`aid`,`pagename`,`shortname`,`typeid`,`moduleids`) VALUES (28,0,31,'栏目预订页','booking',8,'2,3,12,4,6,19');
+INSERT INTO `sline_module_config` (`id`,`webid`,`aid`,`pagename`,`shortname`,`typeid`,`moduleids`) VALUES (30,0,32,'栏目首页','index',13,'1,11,8,4,20,7,15,28,21,24,27,26');
+INSERT INTO `sline_module_config` (`id`,`webid`,`aid`,`pagename`,`shortname`,`typeid`,`moduleids`) VALUES (31,0,33,'详细页面','show',13,'14,6,15,4,5,8,9,13');
+INSERT INTO `sline_module_config` (`id`,`webid`,`aid`,`pagename`,`shortname`,`typeid`,`moduleids`) VALUES (32,0,34,'栏目搜索页','search',13,'14,6,15,4,5,8,9,13');
+INSERT INTO `sline_module_config` (`id`,`webid`,`aid`,`pagename`,`shortname`,`typeid`,`moduleids`) VALUES (33,0,35,'目的地首页','index',12,'15,4,8,5');
+INSERT INTO `sline_module_config` (`id`,`webid`,`aid`,`pagename`,`shortname`,`typeid`,`moduleids`) VALUES (34,0,36,'目的地引导页','boot',12,'6,4,15');
+
+INSERT INTO `sline_module_config` (`id`,`webid`,`aid`,`pagename`,`shortname`,`typeid`,`moduleids`) VALUES (35,0,37,'栏目首页','index',101,'1,11,8,4,20,7,15,28,21,24,27,26');
+INSERT INTO `sline_module_config` (`id`,`webid`,`aid`,`pagename`,`shortname`,`typeid`,`moduleids`) VALUES (36,0,38,'详细页面','show',101,'14,6,15,4,5,8,9,13');
+INSERT INTO `sline_module_config` (`id`,`webid`,`aid`,`pagename`,`shortname`,`typeid`,`moduleids`) VALUES (37,0,39,'栏目搜索页','search',101,'14,6,15,4,5,8,9,13');
+
+INSERT INTO `sline_currency` (`id`, `countryname`, `chinesename`, `englishname`, `code`, `symbol`, `isopen`) VALUES
+	(1, '中国', '人民币', 'China Yuan', 'CNY', '￥', 0),
+	(2, '美国', '美元', 'US Dollar', 'USD', '$', 0),
+	(3, '欧洲', '欧元', 'Euro', 'EUR', '€', 0),
+	(4, '日本', '日元', 'Japan Yen', 'JPY', '￥', 0),
+	(5, '韩国', '韩元', 'Korea Won', 'KRW', ' ₩', 0),
+	(6, '香港', '港元', 'HongKong Dollar', 'HKD', 'hk$', 0),
+	(7, '英国', '英镑', 'Britain Pounds', 'GBP', '£', 0);
