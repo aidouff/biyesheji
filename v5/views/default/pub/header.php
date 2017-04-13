@@ -18,7 +18,7 @@
 <div class="web-top">
     <div class="wm-1200">
         <div class="notice-txt">{$GLOBALS['cfg_gonggao']}</div>
-        <div class="scroll-order">
+        /*<div class="scroll-order">
             <ul>
                 {st:comment action="query" flag="all" row="3"}
                   {loop $data $row}
@@ -27,6 +27,7 @@
                 {/st}
             </ul>
         </div>
+        */
         <div class="top-login">
             <span id="loginstatus">
 

@@ -45,14 +45,14 @@
                   <div class="nr-list">
                       <h4 class="tit"><span class="fl">手机域名：</span></h4>
                       <div class="txt">
-                          <input type="text" name="cfg_m_main_url" id="cfg_m_main_url" class="set-text" value="{$config['cfg_m_main_url']}" /><span class="must-input hide"><i>* 必填</i></span><span class="fanlie">没有绑定独立二级域名，请填写主站域名http://www.xxx.com，如：http://www.stourweb.com；有绑定则填写参考：http://x.xxx.com，如：http://m.stourweb.com </span>
+                          <input type="text" name="cfg_m_main_url" id="cfg_m_main_url" class="set-text" value="{$config['cfg_m_main_url']}" /><span class="must-input hide"><i>* 必填</i></span><span class="fanlie">没有绑定独立二级域名，请填写主站域名http://www.xxx.com，如：http://www.baidu.com；有绑定则填写参考：http://x.xxx.com，如：http://m.stourweb.com </span>
                       </div>
                   </div>
                   <div class="nr-list">
                       <h4 class="tit"><span class="fl">图片域名：</span></h4>
                       <div class="txt">
                           <input type="text" name="cfg_m_img_url" id="cfg_m_img_url" class="set-text" value="{$config['cfg_m_img_url']}" /><span class="must-input hide"><i>* 必填</i></span>
-                          <span class="fanlie">请填写主站域名http://www.xxx.com，如：http://www.stourweb.com；</span>
+                          <span class="fanlie">请填写主站域名http://www.xxx.com，如：http://www.baidu.com；</span>
                       </div>
                   </div>
                   <div class="nr-list">

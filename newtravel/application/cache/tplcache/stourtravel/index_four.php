@@ -63,7 +63,7 @@
     </div>
     <div class="txt-msg">
         <div class="contact-btn">
-            <a class="fk-btn" href="http://www.stourweb.com/user/myfeedback/commitlist" target="_blank" id="feedback_btn">工单反馈</a>
+            <a class="fk-btn" href="http://www.baidu.com/user/myfeedback/commitlist" target="_blank" id="feedback_btn">工单反馈</a>
             <a class="kf-btn" href="javascript:;">专属客服</a>
         </div>
         <div class="affiche">
@@ -207,19 +207,19 @@
                 <h3><span>营销文章</span></h3>
                 <div class="con-list">
                     <ul id="yx_article_list">
-                        <li><a href="http://www.stourweb.com/peixun/fangfa-307"
+                        <li><a href="http://www.baidu.com/peixun/fangfa-307"
                                target="_blank">思途，与曾经的老朋友有个约定思途CMS免费授权</a></li>
-                        <li><a href="http://www.stourweb.com/peixun/fangfa-305" target="_blank">思途，一个不停探索的故事</a></li>
-                        <li><a href="http://www.stourweb.com/peixun/fangfa-306" target="_blank">互联网旅游电商补贴式营销</a></li>
-                        <li><a href="http://www.stourweb.com/peixun/fangfa-418" target="_blank">网站优化是做什么的？</a></li>
-                        <li><a href="http://www.stourweb.com/peixun/fangfa-417" target="_blank">四川省旅游电子商务学院在“四川城市职业学院”开班授课</a>
+                        <li><a href="http://www.baidu.com/peixun/fangfa-305" target="_blank">思途，一个不停探索的故事</a></li>
+                        <li><a href="http://www.baidu.com/peixun/fangfa-306" target="_blank">互联网旅游电商补贴式营销</a></li>
+                        <li><a href="http://www.baidu.com/peixun/fangfa-418" target="_blank">网站优化是做什么的？</a></li>
+                        <li><a href="http://www.baidu.com/peixun/fangfa-417" target="_blank">四川省旅游电子商务学院在“四川城市职业学院”开班授课</a>
                         </li>
-                        <li><a href="http://www.stourweb.com/peixun/fangfa-416" target="_blank">旅游网站优化如何做首页排名</a></li>
-                        <li><a href="http://www.stourweb.com/peixun/fangfa-415" target="_blank">旅游微信营销的六大技巧</a></li>
-                        <li><a href="http://www.stourweb.com/peixun/fangfa-414" target="_blank">PC端和手机端QQ群邀请好友入群方式</a>
+                        <li><a href="http://www.baidu.com/peixun/fangfa-416" target="_blank">旅游网站优化如何做首页排名</a></li>
+                        <li><a href="http://www.baidu.com/peixun/fangfa-415" target="_blank">旅游微信营销的六大技巧</a></li>
+                        <li><a href="http://www.baidu.com/peixun/fangfa-414" target="_blank">PC端和手机端QQ群邀请好友入群方式</a>
                         </li>
-                        <li><a href="http://www.stourweb.com/peixun/fangfa-418" target="_blank">网站优化是做什么的？</a></li>
-                        <li><a href="http://www.stourweb.com/peixun/fangfa-417" target="_blank">四川省旅游电子商务学院在“四川城市职业学院”开班授课</a>
+                        <li><a href="http://www.baidu.com/peixun/fangfa-418" target="_blank">网站优化是做什么的？</a></li>
+                        <li><a href="http://www.baidu.com/peixun/fangfa-417" target="_blank">四川省旅游电子商务学院在“四川城市职业学院”开班授课</a>
                         </li>
                     </ul>
                 </div>
@@ -521,7 +521,7 @@
             success: function (data) {
                 var list = '';
                 $.each(data, function (i, row) {
-                    list += '<li><a href="http://www.stourweb.com' + row.url + '" target="_blank">' + row.title + '</a></li>';
+                    list += '<li><a href="http://www.baidu.com' + row.url + '" target="_blank">' + row.title + '</a></li>';
                 });
                 $("#yx_article_list").html(list)
             }
@@ -561,7 +561,7 @@
                         var desc = row.desc;
                         desc = desc.replace(/<[^>]+>/g, "");
                         out += "<dl>";
-                        out += '<dt><a href="http://www.stourweb.com/cms/banben" target="_blank">' + row.pubdate + ' 发布 ' + row.version + '升级包</a></dt>';
+                        out += '<dt><a href="http://www.baidu.com/cms/banben" target="_blank">' + row.pubdate + ' 发布 ' + row.version + '升级包</a></dt>';
                         out += '<dd>' + desc + '</dd>';
                         out += '</dl>';
                     }

@@ -3,7 +3,7 @@
  * @version        $Id: index.php 1 13:41 2014年2月27日 netman
  * @package        Stourweb.Install
  * @copyright      Copyright (c) 2011 - 2014, Stourweb, Inc.
- * @link           http://www.stourweb.com
+ * @link           http://www.baidu.com
  */
 
 @set_time_limit(0);

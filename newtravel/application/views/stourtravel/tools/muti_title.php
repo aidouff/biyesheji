@@ -47,12 +47,12 @@
                                     <tr>
                                         <th width="80" height="40" align="right" scope="row">优化标题：</th>
                                         <td width="480"><input type="text" name="cfg_dest_title" class="set-text-xh wid_460" value="{$info['cfg_dest_title']}" /></td>
-                                        <td width="310">在目的地页面显示的标题,按分类名编写一段文字,分类名用大写XXX代替,如:XXX旅游报价_XXX酒店预订_XXX旅游租车_XXX旅游攻略.</td>
+                                        <td width="310">在目的地页面显示的标题,按分类名编写一段文字,分类名用大写XXX代替,如:云途lvy旅游报价_XXX酒店预订_云途lvy旅游租车_云途lvy旅游攻略.</td>
                                     </tr>
                                     <tr>
                                         <th height="120" align="right" valign="top" scope="row"><span class="fr pt-5">优化描述：</span></th>
                                         <td width="480"><textarea name="cfg_dest_desc" cols="" rows="" class="dft-area pl-5">{$info['cfg_dest_desc']}</textarea></td>
-                                        <td width="310">在目的地页面的页面描述,按分类名编写一段文字,分类名用大写XXX代替,如:XXX旅游介绍</td>
+                                        <td width="310">在目的地页面的页面描述,按分类名编写一段文字,分类名用大写XXX代替,如:云途lvy旅游介绍</td>
                                     </tr>
                                 </table>
                             </div>
@@ -64,12 +64,12 @@
                                     <tr>
                                         <th width="80" height="40" align="right" scope="row">优化标题：</th>
                                         <td width="480"><input type="text" name="cfg_line_title" class="set-text-xh wid_460" value="{$info['cfg_line_title']}" /></td>
-                                        <td width="310">分类名用大写XXX代替,如:XXX旅游线路报价</td>
+                                        <td width="310">分类名用大写XXX代替,如:云途lvy旅游线路报价</td>
                                     </tr>
                                     <tr>
                                         <th height="120" align="right" valign="top" scope="row"><span class="fr pt-5">优化描述：</span></th>
                                         <td width="480"><textarea name="cfg_line_desc" cols="" rows="" class="dft-area pl-5">{$info['cfg_line_desc']}</textarea></td>
-                                        <td width="310">分类名用大写XXX代替,如:XXX旅游线路报价描述</td>
+                                        <td width="310">分类名用大写XXX代替,如:云途lvy旅游线路报价描述</td>
                                     </tr>
                                 </table>
                             </div>

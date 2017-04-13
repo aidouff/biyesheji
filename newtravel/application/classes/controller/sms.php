@@ -50,8 +50,8 @@ class Controller_Sms extends Stourweb_Controller{
         $upass = md5($this->upass);
         $suittype = Arr::get($_POST,'suittype');
 
-        $buyurl = "http://www.stourweb.com/Sms/buysms/";
-        //$buyurl= "http://www.stourweb.com/Sms/buysms/account/".$uname.'/password/'.$upass;
+        $buyurl = "http://www.baidu.com/Sms/buysms/";
+        //$buyurl= "http://www.baidu.com/Sms/buysms/account/".$uname.'/password/'.$upass;
         //$buyurl.='/price/'.$price;
         //$buyurl.='/smsnumber/'.$num;
         $postfields = array(

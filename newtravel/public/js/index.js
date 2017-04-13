@@ -14,7 +14,7 @@ $(function(){
 					$("#"+listid).show().siblings().hide();
 			}
 			else{
-				window.open('http://www.stourweb.com/Member/Login');
+				window.open('http://www.baidu.com/Member/Login');
 			}
 			
 			

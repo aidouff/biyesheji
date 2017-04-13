@@ -79,7 +79,7 @@ class Controller_Index extends Stourweb_Controller{
 
     public function action_ajax_get_last_article()
     {
-        $article = Common::objectToArray(json_decode(Common::http('www.stourweb.com/Api/index')));
+        $article = Common::objectToArray(json_decode(Common::http('www.baidu.com/Api/index')));
 
         echo json_encode($article);
     }
@@ -472,7 +472,7 @@ class Controller_Index extends Stourweb_Controller{
         $password=WebConfig::getConfig('cfg_sms_password');
         $password=empty($password)?'':md5($password);
 
-        $url="http://www.stourweb.com/user/login/do_user_login/account/{$userName}/password/{$password}";
+        $url="http://www.baidu.com/user/login/do_user_login/account/{$userName}/password/{$password}";
         echo '<script>'.
             'window.open("'.$url.'","_self")'.
             '</script>';

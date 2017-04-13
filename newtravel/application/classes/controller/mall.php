@@ -9,15 +9,15 @@ class Controller_Mall extends Stourweb_Controller
     //会员ID
     private $_memberId;
     //应用商城接口
-    const APPURL = 'http://www.stourweb.com/api/app/get_list';
+    const APPURL = 'http://www.baidu.com/api/app/get_list';
     //标签接口
-    const TAGURL = 'http://www.stourweb.com/api/app/get_tag';
+    const TAGURL = 'http://www.baidu.com/api/app/get_tag';
     //应用详情接口
-    const INFOURL = 'http://www.stourweb.com/api/app/get_info';
+    const INFOURL = 'http://www.baidu.com/api/app/get_info';
     //我的应用
-    const MYAPPURL = 'http://www.stourweb.com/api/app/get_my_app';
+    const MYAPPURL = 'http://www.baidu.com/api/app/get_my_app';
     //购买接口
-    const APPBUY = 'http://www.stourweb.com/api/app/buy_app';
+    const APPBUY = 'http://www.baidu.com/api/app/buy_app';
 
     //初始化
     public function before()

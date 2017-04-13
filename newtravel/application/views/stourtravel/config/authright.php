@@ -93,21 +93,21 @@
                         <dt>思途帐号：</dt>
                         <dd>
                             <input type="text" name="cfg_sms_username" value="{$configinfo['cfg_sms_username']}"  class="set-text text_300" />
-                            <p>注：在www.stourweb.com购买系统使用的帐号；    还没有帐号？<a href="http://www.stourweb.com/member/">立即注册</a></p>
+                            <p>注：在www.baidu.com购买系统使用的帐号；    还没有帐号？<a href="http://www.baidu.com/member/">立即注册</a></p>
                         </dd>
                     </dl>
                     <dl class="ec_list">
                         <dt>思途密码：</dt>
                         <dd>
                             <input type="password" name="cfg_sms_password" value="{$configinfo['cfg_sms_password']}"  class="set-text text_300" />
-                            <p>注：在www.stourweb.com登录时使用的密码，若修改后，请务必修改此处密码，密码错误会影响系统功能使用，如短信功能；</p>
+                            <p>注：在www.baidu.com登录时使用的密码，若修改后，请务必修改此处密码，密码错误会影响系统功能使用，如短信功能；</p>
                         </dd>
                     </dl>
                     <dl class="ec_list">
                         <dt>思途ID：</dt>
                         <dd>
                             <input type="text" name="cfg_licenseid" id="cfg_licenseid" value="{$serailnum}" class="set-text text_300" />
-                            <p>注：在www.stourweb.com会员中心的用户ID，即是系统的授权ID，请正确填写，否则会影响系统功能的使用，如升级功能；</p>
+                            <p>注：在www.baidu.com会员中心的用户ID，即是系统的授权ID，请正确填写，否则会影响系统功能的使用，如升级功能；</p>
                         </dd>
                     </dl>
                     <div class="opn-btn">

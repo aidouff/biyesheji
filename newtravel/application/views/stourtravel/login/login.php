@@ -27,7 +27,7 @@
 <div class="login-box">
     <div class="head-box">
         <span class="head-version">V{$majorVersion}</span>
-        <a href="http://www.stourweb.com" target="_blank"><img class="fl" src="{$GLOBALS['cfg_public_url']}images/gw-blank-ico.png" /></a>
+        <a href="http://www.baidu.com" target="_blank"><img class="fl" src="{$GLOBALS['cfg_public_url']}images/gw-blank-ico.png" /></a>
     </div>
     <form method="post" id="loginfrm">
     <div class="login-admin">

@@ -35,7 +35,7 @@
                         <div class="u-jc-box">
                           <div class="u-jc-txt">
                               <p class="fl">当前版本： {$version}</p>
-                            <a class="fr" href="http://www.stourweb.com/cms/banben" target="_blank">官方升级日志</a>
+                            <a class="fr" href="http://www.baidu.com/cms/banben" target="_blank">官方升级日志</a>
                           </div>
                           <div class="u-jc-con" id="status1">
                             <a class="bg-15b" href="javascript:;" onclick="checkUpgrade()">检测更新</a>

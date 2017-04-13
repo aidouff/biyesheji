@@ -9,7 +9,7 @@ return array (
   'cfg_indextitle' => 'smore标准站点2',
   'cfg_index_zhuti' => 'undefined',
   'cfg_indexcode' => '',
-  'cfg_gonggao' => '<p><span style="color: #808080">四川门户电子商务网站系统，用于快速建设旅游网站：订购网站<a href="http://www.stourweb.com">www.stourweb.com</a>，电话：4006-0999-27-26</span></p>',
+  'cfg_gonggao' => '<p><span style="color: #808080">西区公寓308<a href="http://www.baidu.com">www.baidu.com</a>，电话：4006-0999-27-26</span></p>',
   'cfg_tongjicode' => '',
   'cfg_df_style' => '2days',
   'cfg_weathcode' => '',
@@ -22,7 +22,7 @@ return array (
   'cfg_taposition' => '0',
   'cfg_taindex' => '1',
   'cfg_logo' => '/uploads/main/allimg/20160303/20160303115800.png',
-  'cfg_logourl' => 'http://www.stourweb.com',
+  'cfg_logourl' => 'http://www.baidu.com',
   'cfg_logoalt' => '思途旅游CMS',
   'cfg_lxslogo' => '/uploads/main/adimg/20130918/20130918175433.gif',
   'cfg_lxslogoalt' => 'jjf',
@@ -54,7 +54,7 @@ return array (
   'cfg_py_open' => '1',
   'cfg_footer' => '<div class="foot_con"><p>
         经营许可证号：L-SC-CJ00003　业务接待地址：四川省成都市一环路西一段160号百花商务楼4F</p><p>
-        技术支持:<a id="tecsupport" href="http://www.stourweb.com/">思途CMS</a></p></div><div class="foot_img"><br/></div>',
+        技术支持:<a id="tecsupport" href="http://www.baidu.com/">思途CMS</a></p></div><div class="foot_img"><br/></div>',
   'cfg_phone' => '4006-0999-27',
   'cfg_auto_time' => '7200',
   'cfg_weixin_logo' => '/uploads/main/allimg/20150810/20150810150722.jpg',

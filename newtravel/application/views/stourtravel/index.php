@@ -26,14 +26,14 @@
                 <li class="clear-style"><a href="javascript:;" id="clearbtn">清除缓存</a></li>
                 <li class="create-txt"><a href="javascript:;" id="makehtml">生成html</a></li>
                 <li class="manager">
-                    <a href="http://www.stourweb.com/help" target="_blank">帮助中心</a>
+                    <a href="http://www.baidu.com/help" target="_blank">帮助中心</a>
 
                     <div class="top-help-list">
-                        <a class="ico_1" target="_blank" href="http://www.stourweb.com/peixun/yingxiao-19">使用帮助</a>
+                        <a class="ico_1" target="_blank" href="http://www.baidu.com/peixun/yingxiao-19">使用帮助</a>
                         <a class="ico_2" target="_blank" href="javascript:;">视频教程</a>
-                        <a class="ico_3" target="_blank" href="http://www.stourweb.com/Member/login">意见反馈</a>
-                        <a class="ico_4" target="_blank" href="http://www.stourweb.com">思途官网</a>
-                        <a class="ico_5" target="_blank" href="http://www.stourweb.com/cms/jieshao">关于系统</a>
+                        <a class="ico_3" target="_blank" href="http://www.baidu.com/Member/login">意见反馈</a>
+                        <a class="ico_4" target="_blank" href="http://www.baidu.com">思途官网</a>
+                        <a class="ico_5" target="_blank" href="http://www.baidu.com/cms/jieshao">关于系统</a>
                     </div>
                 </li>
                 <li class="drop-out"><a href="javascript:;" id="clickout">退出</a></li>

@@ -34,7 +34,7 @@
     </div>
     <div class="manage-nr">
         <div class="sms-base sms-single">
-            <div class="b-tit">我的短信 <a target="_blank" href="http://www.stourweb.com/peixun/fangfa-593" style="float:right; padding-right: 10px; color: #fff;">思途CMS短信签名说明</a></div>
+            <div class="b-tit">我的短信 <a target="_blank" href="http://www.baidu.com/peixun/fangfa-593" style="float:right; padding-right: 10px; color: #fff;">思途CMS短信签名说明</a></div>
             <div class="b-con">
                 <div class="c-hint"><span class="h-icon">&nbsp;</span><span class="h-lb">剩余短信：<a href="javascript:;" class="h-num">{$leftmsg}</a>条</span></div>
                 <a href="javascript:;" class="normal-btn" id="bind_btn">授权绑定</a><a href="javascript:;" class="normal-btn" id="charge_btn">充值记录</a>
