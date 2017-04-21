@@ -21,8 +21,6 @@
         <div class="scroll-order">
             <ul>
                 <?php require_once ("C:/phpstudy/WWW/taglib/comment.php");$comment_tag = new Taglib_Comment();if (method_exists($comment_tag, 'query')) {$data = $comment_tag->query(array('action'=>'query','flag'=>'all','row'=>'3',));}?>
-                  <?php $n=1; if(is_array($data)) { foreach($data as $row) { ?>
-                     <li><?php echo $row['nickname'];?><?php echo $row['pltime'];?>评论了<?php echo $row['productname'];?></li>
                   <?php $n++;}unset($n); } ?>
                 
             </ul>

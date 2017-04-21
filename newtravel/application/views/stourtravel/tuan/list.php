@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>思途CMS{$coreVersion}</title>
+<title>云途lvy{$coreVersion}</title>
  {template 'stourtravel/public/public_js'}
    {php echo Common::getCss('style.css,base.css,base2.css,plist.css'); }
    {php echo Common::getScript("uploadify/jquery.uploadify.min.js,jquery.buttonbox.js,choose.js"); }

@@ -28,16 +28,16 @@ class Controller_App extends Stourweb_Controller{
         switch($type)
         {
             case 'contract':
-                $url = "http://www.stourweb.com/Member";
+                $url = "http://www.baidu.com/Member";
                 break;
             case 'moban':
-                $url = "http://www.stourweb.com/cms/moban";
+                $url = "http://www.baidu.com/cms/moban";
                 break;
             case 'seo':
-                $url = "http://www.stourweb.com/peixun";
+                $url = "http://www.baidu.com/peixun";
                 break;
             case 'problem':
-                $url = "http://www.stourweb.com/cms/problem";
+                $url = "http://www.baidu.com/cms/problem";
                 break;
 
         }

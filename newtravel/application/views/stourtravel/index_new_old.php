@@ -21,11 +21,11 @@
             <li class="manager">
                 <a href="javascript:;" id="userbtn"><img src="{$GLOBALS['cfg_public_url']}images/top-operate-04.png" alt="帮助" title="帮助"></a>
                 <div class="top-help-list">
-                    <a class="ico_1" target="_blank" href="http://www.stourweb.com/peixun/yingxiao-19">使用帮助</a>
+                    <a class="ico_1" target="_blank" href="http://www.baidu.com/peixun/yingxiao-19">使用帮助</a>
                     <a class="ico_2" target="_blank" href="javascript:;">视频教程</a>
-                    <a class="ico_3" target="_blank" href="http://www.stourweb.com/Member/login">意见反馈</a>
-                    <a class="ico_4" target="_blank" href="http://www.stourweb.com">思途官网</a>
-                    <a class="ico_5" target="_blank" href="http://www.stourweb.com/cms/jieshao">关于系统</a>
+                    <a class="ico_3" target="_blank" href="http://www.baidu.com/Member/login">意见反馈</a>
+                    <a class="ico_4" target="_blank" href="http://www.baidu.com">思途官网</a>
+                    <a class="ico_5" target="_blank" href="http://www.baidu.com/cms/jieshao">关于系统</a>
                 </div>
             </li>
             <li class="drop-out"><a href="javascript:;" id="clickout"><img src="{$GLOBALS['cfg_public_url']}images/top-operate-05.png" alt="退出" title="退出"></a></li>
@@ -37,7 +37,7 @@
 <div class="gn-ts-cum">
 
     <p id="info1" style="display: none">欢迎使用思途CMS！您已获取官方正版授权,受法律保护!</p>
-    <p id="info2" style="display: none">您还未获得思途CMS的正版授权，盗版使用会面临刑法处罚，请<a href="http://www.stourweb.com/cms/accredit" target="_blank">联系我们</a></p>
+    <p id="info2" style="display: none">您还未获得思途CMS的正版授权，盗版使用会面临刑法处罚，请<a href="http://www.baidu.com/cms/accredit" target="_blank">联系我们</a></p>
 
     <p id="newversion" style="display: none">系统有新版本发布，建议升级！<a href="javascript:;" onclick="ST.Util.addTab('系统升级','{$cmsurl}/app/upgrade/parentkey/application/itemid/1')">立即升级</a></p>
     <a class="back-ico" href="javascript:;" onclick="parent.window.hideIndex()">返回</a>
@@ -45,7 +45,7 @@
 
 <div class="best_news" style="display: none">
 	<p class="tit">最新版本&nbsp;&nbsp;<span id="new_pubdate"></span>&nbsp;&nbsp;星期四&nbsp;&nbsp;改进</p>
-  <div class="news_con" onClick="window.open('http://www.stourweb.com/cms/banben')">
+  <div class="news_con" onClick="window.open('http://www.baidu.com/cms/banben')">
   	<ul id="new_desc">
 
     </ul>
@@ -208,11 +208,11 @@
         <dl>
             <dt>
                 <img class="fl" src="{$GLOBALS['cfg_public_url']}images/st-logo.png" />
-                <a href="http://www.stourweb.com/peixun/yingxiao-6" target="_blank">SEO优化</a>
-                <a href="http://www.stourweb.com/peixun/yingxiao-8" target="_blank">整合营销</a>
-                <a href="http://www.stourweb.com/peixun/yingxiao-7" target="_blank">社会化</a>
-                <a href="http://www.stourweb.com/peixun/yingxiao-60" target="_blank">行业</a>
-                <a href="http://www.stourweb.com/peixun/yingxiao-67" target="_blank">经营管理</a>
+                <a href="http://www.baidu.com/peixun/yingxiao-6" target="_blank">SEO优化</a>
+                <a href="http://www.baidu.com/peixun/yingxiao-8" target="_blank">整合营销</a>
+                <a href="http://www.baidu.com/peixun/yingxiao-7" target="_blank">社会化</a>
+                <a href="http://www.baidu.com/peixun/yingxiao-60" target="_blank">行业</a>
+                <a href="http://www.baidu.com/peixun/yingxiao-67" target="_blank">经营管理</a>
             </dt>
 
              <dd id="article_list"></dd>
@@ -240,7 +240,7 @@
 
 <div class="ma-wid_1000">
     <div class="index_foot">
-        <p>成都梦旅程网络科技有限公司（荣誉产品）思途旅游CMS系统 2007 - 2014 © www.Stourweb.com</p>
+        <p>成都梦旅程网络科技有限公司（荣誉产品）思途旅游CMS系统 2007 - 2014 © www.baidu.com</p>
     </div>
 </div>
 <script language="JavaScript">
@@ -258,7 +258,7 @@
                 $("#"+listid).show().siblings().hide();
             }
             else{
-                window.open('http://www.stourweb.com/Member/Login');
+                window.open('http://www.baidu.com/Member/Login');
             }
 
 
@@ -393,7 +393,7 @@
             success:function(data){
                 var list = '';
                 $.each(data,function(i,row){
-                    list+='<a href="http://www.stourweb.com'+row.url+'" target="_blank">'+row.title+'</a>';
+                    list+='<a href="http://www.baidu.com'+row.url+'" target="_blank">'+row.title+'</a>';
                 });
                 $("#article_list").html(list)
 

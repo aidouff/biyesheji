@@ -5,7 +5,7 @@
  * @version        $Id: msg.class.php
  * @package        Stourweb.Libraries
  * @copyright      Copyright (c) 2007 - 2014, Inc.
- * @license        http://www.stourweb.com
+ * @license        http://www.baidu.com
  * @return         {"Success":true,"Message":null,"Data":35}
  */
 class Msg{

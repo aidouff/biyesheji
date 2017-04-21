@@ -52,7 +52,7 @@
         <div class="st-foot-edit">
             {$GLOBALS['cfg_footer']}
         </div><!--网站底部介绍-->
-        <div class="support">技术支持：<a href="http://www.stourweb.com/" target="_blank">思途CMS</a></div>
+        <div class="support">技术支持：<a href="http://www.baidu.com/" target="_blank">思途CMS</a></div>
         <p>{stripslashes($GLOBALS['cfg_tongjicode'])}</p>
     </div>
 </div>

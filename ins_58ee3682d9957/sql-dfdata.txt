@@ -183,9 +183,9 @@ INSERT INTO `sline_model_content` VALUES ('1', '0', '7', 'tupian', '图片', '0'
 
 
 
-INSERT INTO `sline_nav` VALUES ('1', '0', '2', '1', '0', '', '线路', 'XXX旅游线路价格_XXX热门线路推荐', 'XXX旅游线路价格,XXX热门线路推荐', 'XXX网为您提供旅游线路大全，热卖旅游线路报价，热卖旅游线路价格等信息,欢迎咨询！', null, '线路', '/lines/', '1', '1', '1', '1', '旅游线路', '0', '6', null, '1');
+INSERT INTO `sline_nav` VALUES ('1', '0', '2', '1', '0', '', '线路', '云途lvy旅游线路价格_XXX热门线路推荐', '云途lvy旅游线路价格,XXX热门线路推荐', 'XXX网为您提供旅游线路大全，热卖旅游线路报价，热卖旅游线路价格等信息,欢迎咨询！', null, '线路', '/lines/', '1', '1', '1', '1', '旅游线路', '0', '6', null, '1');
 INSERT INTO `sline_nav` VALUES ('2', '0', '3', '2', '0', '', '酒店', 'XXX特价酒店预订_酒店住宿价格', 'XXX特价酒店预订,XXX酒店住宿价格', 'XXXX酒店频道提供3-8折国内经济酒店/连锁酒店/星级宾馆/四川景区酒店优惠预订服务，旅行社预订酒店价格有优势.', null, '酒店', '/hotels/', '1', '1', '6', '1', '热门酒店', '0', '6', null, '0');
-INSERT INTO `sline_nav` VALUES ('3', '0', '4', '3', '0', '', '租车', 'XXX旅游租车_XXX代驾租车', 'XXX旅游租车,XXX代驾租车', 'XXX租车频道提供旅游租车信息,为游客提供越野车,商务车,旅游大巴等旅游租车常用车辆的租赁,让您的包车旅行轻轻松松', null, '租车', '/cars/', '1', '1', '7', '1', '旅游租车', '0', '6', null, '0');
+INSERT INTO `sline_nav` VALUES ('3', '0', '4', '3', '0', '', '租车', '云途lvy旅游租车_XXX代驾租车', '云途lvy旅游租车,XXX代驾租车', 'XXX租车频道提供旅游租车信息,为游客提供越野车,商务车,旅游大巴等旅游租车常用车辆的租赁,让您的包车旅行轻轻松松', null, '租车', '/cars/', '1', '1', '7', '1', '旅游租车', '0', '6', null, '0');
 INSERT INTO `sline_nav` VALUES ('4', '0', '5', '5', '0', '', '景点', '旅游景点大全_旅游景点介绍_旅游景图片', '旅游景点大全,旅游景点介绍,旅游景图片', 'XXX景点频道为您提供国内，境外旅游景点大全，著名旅游景点介绍，旅游景点推荐，旅游景点图片等信息。告诉你有哪些好玩的景点！', null, '旅游景点', '/spots/', '1', '1', '10', '1', '旅游景点', '0', '6', null, '0');
 INSERT INTO `sline_nav` VALUES ('6', '0', '7', '4', '0', '', '攻略', '旅游攻略大全_自助游攻略_游记攻略', '旅游攻略大全,自助游攻略,游记攻略', 'XXX攻略频道为游客提供全面和详细的旅行攻略大全，您可以详细了解到、游记、指南、地图、门票、美食、特产、交通灯信息。', null, '旅游攻略', '/raiders/', '1', '1', '11', '1', '旅游攻略', '0', '6', null, '2');
 INSERT INTO `sline_nav` VALUES ('7', '0', '8', '6', '0', '', '相册', '旅游风景图片_旅游景点图片_旅行图片库', '旅游风景图片,旅游景点图片,旅行图片库', 'XXX相册频道提供旅游风景图片，高清风景图片下载，让您通过丰富多彩的图片了解旅游景点的相关信息。', null, '旅游相册', '/photos/', '1', '1', '12', '1', '旅游相册', '0', '6', null, '0');
@@ -275,14 +275,14 @@ INSERT INTO `sline_photo_attr` VALUES ('12', '0', '12', '广场', '11', '1', '6'
 INSERT INTO `sline_photo_kindlist` VALUES ('36', '36', '', '', '', '', '', '0', '2', '1', '0', '0', '');
 INSERT INTO `sline_photo_kindlist` VALUES ('37', '37', '', '', '', '', '', '0', '3', '1', '0', '0', '');
 
-INSERT INTO `sline_plugin_autotitle` VALUES ('1', 'cfg_dest_title', 'XXX旅游报价_周边线路、酒店、租车以及景点、攻略推荐');
-INSERT INTO `sline_plugin_autotitle` VALUES ('2', 'cfg_dest_desc', 'XXX为您提供XXX旅游专业报价，提供周边经典线路，酒店预订，旅行租车以及XXX旅游攻略等详细旅游信息，是帮助您前往XXX旅游的首选参考网站，欢迎访问！');
-INSERT INTO `sline_plugin_autotitle` VALUES ('3', 'cfg_line_title', 'XXX旅游线路报价_XXX热门线路推荐');
-INSERT INTO `sline_plugin_autotitle` VALUES ('4', 'cfg_line_desc', 'XXX为广大网友提供成都到XXX旅游线路网上特价预订，一站式服务，专业透明的旅游价格。更有XXX自由行、特色游、半自助游、小包团、跟团游和套餐酒店等产品量身定制，品质卓越。');
+INSERT INTO `sline_plugin_autotitle` VALUES ('1', 'cfg_dest_title', '云途lvy旅游报价_周边线路、酒店、租车以及景点、攻略推荐');
+INSERT INTO `sline_plugin_autotitle` VALUES ('2', 'cfg_dest_desc', 'XXX为您提供云途lvy旅游专业报价，提供周边经典线路，酒店预订，旅行租车以及云途lvy旅游攻略等详细旅游信息，是帮助您前往云途lvy旅游的首选参考网站，欢迎访问！');
+INSERT INTO `sline_plugin_autotitle` VALUES ('3', 'cfg_line_title', '云途lvy旅游线路报价_XXX热门线路推荐');
+INSERT INTO `sline_plugin_autotitle` VALUES ('4', 'cfg_line_desc', 'XXX为广大网友提供成都到云途lvy旅游线路网上特价预订，一站式服务，专业透明的旅游价格。更有XXX自由行、特色游、半自助游、小包团、跟团游和套餐酒店等产品量身定制，品质卓越。');
 INSERT INTO `sline_plugin_autotitle` VALUES ('5', 'cfg_hotel_title', 'XXX预订_酒店房型、设施介绍_酒店报价');
 INSERT INTO `sline_plugin_autotitle` VALUES ('6', 'cfg_hotel_desc', 'XXX为您提供XXX专业详细的房型、设施介绍，提供XXX专业酒店报价。旅行社预订XXX，价格优惠有优势，欢迎咨询！');
-INSERT INTO `sline_plugin_autotitle` VALUES ('7', 'cfg_car_title', 'XXX旅游租车服务_租车电话');
-INSERT INTO `sline_plugin_autotitle` VALUES ('8', 'cfg_car_desc', 'XXX为企业和个人提供XXX租车,为游客提供XXX旅游越野车,商务车,旅游大巴等常用车辆的租赁,让您的XXX旅行轻轻松松，欢迎咨询。');
+INSERT INTO `sline_plugin_autotitle` VALUES ('7', 'cfg_car_title', '云途lvy旅游租车服务_租车电话');
+INSERT INTO `sline_plugin_autotitle` VALUES ('8', 'cfg_car_desc', 'XXX为企业和个人提供XXX租车,为游客提供云途lvy旅游越野车,商务车,旅游大巴等常用车辆的租赁,让您的XXX旅行轻轻松松，欢迎咨询。');
 INSERT INTO `sline_plugin_autotitle` VALUES ('9', 'cfg_article_title', 'XXX最新旅游攻略大全_住宿、美食、游记和旅行帮助');
 INSERT INTO `sline_plugin_autotitle` VALUES ('10', 'cfg_article_desc', 'XXX最新旅游攻略大全_住宿、美食、游记和旅行帮助');
 INSERT INTO `sline_plugin_autotitle` VALUES ('11', 'cfg_spot_title', 'XXX景点介绍与推荐_人文历史、景观建筑、风景图片等详细信息');
@@ -411,12 +411,12 @@ INSERT INTO `sline_sysconfig` VALUES ('1', '0', 'cfg_medias_dir', '上传路径'
 INSERT INTO `sline_sysconfig` VALUES ('2', '0', 'cfg_cmspath', '网站路径', '');
 INSERT INTO `sline_sysconfig` VALUES ('3', '0', 'cfg_cli_time', '时差值', '8');
 INSERT INTO `sline_sysconfig` VALUES ('5', '0', 'cfg_webname', '网站名称', '旅游');
-INSERT INTO `sline_sysconfig` VALUES ('6', '0', 'cfg_keywords', '关键词', 'XXXX旅游网');
-INSERT INTO `sline_sysconfig` VALUES ('7', '0', 'cfg_description', '描述', 'XXXX旅游网');
-INSERT INTO `sline_sysconfig` VALUES ('8', '0', 'cfg_indextitle', '首页标题', 'XXXX旅游网');
+INSERT INTO `sline_sysconfig` VALUES ('6', '0', 'cfg_keywords', '关键词', '云途lvy');
+INSERT INTO `sline_sysconfig` VALUES ('7', '0', 'cfg_description', '描述', '云途lvy');
+INSERT INTO `sline_sysconfig` VALUES ('8', '0', 'cfg_indextitle', '首页标题', '云途lvy');
 INSERT INTO `sline_sysconfig` VALUES ('9', '0', 'cfg_index_zhuti', '首页主题', '');
 INSERT INTO `sline_sysconfig` VALUES ('10', '0', 'cfg_indexcode', '首页代码', '');
-INSERT INTO `sline_sysconfig` VALUES ('11', '0', 'cfg_gonggao', '公告', '<p><span style=\"color: #808080\">四川门户电子商务网站系统，用于快速建设旅游网站：订购网站<a href=\"http://www.stourweb.com\">www.stourweb.com</a>，电话：4006-0999-27</span></p>');
+INSERT INTO `sline_sysconfig` VALUES ('11', '0', 'cfg_gonggao', '公告', '<p><span style=\"color: #808080\">西区公寓308<a href=\"http://www.baidu.com\">www.baidu.com</a>，电话：4006-0999-27</span></p>');
 INSERT INTO `sline_sysconfig` VALUES ('12', '0', 'cfg_tongjicode', '统计代码 ', '');
 INSERT INTO `sline_sysconfig` VALUES ('13', '0', 'cfg_df_style', '网站样式', 'default');
 INSERT INTO `sline_sysconfig` VALUES ('14', '0', 'cfg_weathcode', '天气代码', '  ');
@@ -428,7 +428,7 @@ INSERT INTO `sline_sysconfig` VALUES ('22', '0', 'cfg_feedback_time', '评论间
 INSERT INTO `sline_sysconfig` VALUES ('25', '0', 'cfg_tplcache_dir', '缓存目录', '/data/tplcache');
 
 INSERT INTO `sline_sysconfig` VALUES ('28', '0', 'cfg_logo', 'logo图片', '/uploads/main/adimg/20140303/20140303104231.gif');
-INSERT INTO `sline_sysconfig` VALUES ('29', '0', 'cfg_logourl', 'logo连接位置', 'http://www.stourweb.com');
+INSERT INTO `sline_sysconfig` VALUES ('29', '0', 'cfg_logourl', 'logo连接位置', 'http://www.baidu.com');
 INSERT INTO `sline_sysconfig` VALUES ('30', '0', 'cfg_logoalt', 'logo alt标识', '思途旅游CMS');
 INSERT INTO `sline_sysconfig` VALUES ('31', '0', 'cfg_lxslogo', '旅行社标识', '/uploads/main/adimg/20130918/20130918175433.gif');
 INSERT INTO `sline_sysconfig` VALUES ('32', '0', 'cfg_lxslogoalt', 'lxglogo alt标识', 'jjf');

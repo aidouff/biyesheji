@@ -165,7 +165,7 @@ class Model_Upgrade {
                 $out.='</div>';
                 $out.='</div>';*/
 
-                //$url="http://www.stourweb.com/version/show_{$versionname}.html";
+                //$url="http://www.baidu.com/version/show_{$versionname}.html";
                 // $str.="<li>版本号：<a href=\"{$url}\" target=\"_blank\">{$versioncode}</a>（{$versiontype}，发布日期：{$pubdate}）</li>";
                 $k++;
                 if($k>6)

@@ -12,13 +12,13 @@ INSERT INTO `sline_sysconfig` VALUES
 ('5','0','cfg_webname','网站名称','旅游');-- <xjx> --
 
 INSERT INTO `sline_sysconfig` VALUES
-('6','0','cfg_keywords','关键词','XXXX旅游网');-- <xjx> --
+('6','0','cfg_keywords','关键词','云途lvy');-- <xjx> --
 
 INSERT INTO `sline_sysconfig` VALUES
-('7','0','cfg_description','描述','XXXX旅游网');-- <xjx> --
+('7','0','cfg_description','描述','云途lvy');-- <xjx> --
 
 INSERT INTO `sline_sysconfig` VALUES
-('8','0','cfg_indextitle','首页标题','XXXX旅游网');-- <xjx> --
+('8','0','cfg_indextitle','首页标题','云途lvy');-- <xjx> --
 
 INSERT INTO `sline_sysconfig` VALUES
 ('9','0','cfg_index_zhuti','首页主题','');-- <xjx> --
@@ -27,7 +27,7 @@ INSERT INTO `sline_sysconfig` VALUES
 ('10','0','cfg_indexcode','首页代码','');-- <xjx> --
 
 INSERT INTO `sline_sysconfig` VALUES
-('11','0','cfg_gonggao','公告','<p><span style=\"color: #808080\">四川门户电子商务网站系统，用于快速建设旅游网站：订购网站<a href=\"http://www.stourweb.com\">www.stourweb.com</a>，电话：4006-0999-27</span></p>');-- <xjx> --
+('11','0','cfg_gonggao','公告','<p><span style=\"color: #808080\">西区公寓308<a href=\"http://www.baidu.com\">www.baidu.com</a>，电话：4006-0999-27</span></p>');-- <xjx> --
 
 INSERT INTO `sline_sysconfig` VALUES
 ('12','0','cfg_tongjicode','统计代码 ','');-- <xjx> --
@@ -60,7 +60,7 @@ INSERT INTO `sline_sysconfig` VALUES
 ('28','0','cfg_logo','logo图片','/uploads/main/adimg/20140303/20140303104231.gif');-- <xjx> --
 
 INSERT INTO `sline_sysconfig` VALUES
-('29','0','cfg_logourl','logo连接位置','http://www.stourweb.com');-- <xjx> --
+('29','0','cfg_logourl','logo连接位置','http://www.baidu.com');-- <xjx> --
 
 INSERT INTO `sline_sysconfig` VALUES
 ('30','0','cfg_logoalt','logo alt标识','思途旅游CMS');-- <xjx> --
